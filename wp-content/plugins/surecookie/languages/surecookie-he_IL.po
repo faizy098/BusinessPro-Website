@@ -1,0 +1,4507 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "הסכמה אמיתית לעוגיות עבור וורדפרס. סריקה מבוססת דפדפן, סיווג חכם, חסימת סקריפטים קפדנית, ורישומי הסכמה המאוחסנים במסד הנתונים שלך."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Cookie Manager"
+msgstr "מנהל עוגיות"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "הגדרות"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "יומנים"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "ללמוד"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "אין לך גישה לעמוד זה."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "שדרוג"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:9
+msgid "Onboarding"
+msgstr "הכוונה"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך הרשאות מספיקות לגשת לעמוד זה."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "דרך פשוטה אך עוצמתית ליצור טפסים מודרניים לאתר שלך."
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren’t built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "אימיילים מוורדפרס לעיתים נעלמים או מגיעים לספאם כי ספקי האחסון אינם מותאמים למשלוח אמין. SureMail פותר זאת על ידי חיבור לשירותי SMTP אמינים, כך שהאימיילים שלך מגיעים לתיבות הדואר, ללא הודעות אבודות או לקוחות מתוסכלים."
+
+#: admin/product-promotion.php:122
+msgid "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster."
+msgstr "Spectra מרחיב את פונקציונליות Gutenberg עם מספר בלוקים ייחודיים ועשירים בתכונות שעוזרים לבנות אתרים מהר יותר."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "אם SureCookie היה מועיל, האם תוכל להקדיש רגע להשאיר דירוג של 5 כוכבים ב-WordPress.org?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "דרג את SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "אולי מאוחר יותר"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "כבר עשיתי זאת"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "אין לך גישה לבצע זאת."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "בדיקת אבטחה נכשלה. נא רענן את העמוד ונסה שוב."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "הסשן שלך פג תוקף. נא רענן את העמוד ונסה שוב."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "חפש לפי כתובת IP או מזהה סשן"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "לא ניתן לאמת את מקור הבקשה."
+
+#: inc/api/consent-logs.php:882
+msgid "Request origin is not allowed."
+msgstr "מקור הבקשה אינו מורשה."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "רישומי ההסכמה התקבלו בהצלחה."
+
+#: inc/api/consent-logs.php:485
+msgid "Consent processed successfully (logging disabled)"
+msgstr "ההסכמה עובדה בהצלחה (רישום מושבת)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:510
+msgid "Too many requests. Please try again later."
+msgstr "יותר מדי בקשות. נא נסה שוב מאוחר יותר."
+
+#: inc/api/consent-logs.php:530
+msgid "Preferences should not be empty."
+msgstr "העדפות לא צריכות להיות ריקות."
+
+#: inc/api/consent-logs.php:539
+msgid "Preferences data is too large."
+msgstr "נתוני ההעדפות גדולים מדי."
+
+#: inc/api/consent-logs.php:550
+#: inc/api/consent-logs.php:561
+msgid "Invalid preferences format."
+msgstr "פורמט העדפות לא חוקי."
+
+#: inc/api/consent-logs.php:570
+msgid "Session ID is required."
+msgstr "נדרש מזהה סשן."
+
+#: inc/api/consent-logs.php:609
+msgid "Accept All is not enabled for this site."
+msgstr "אפשרות \"קבל הכל\" אינה מופעלת לאתר זה."
+
+#: inc/api/consent-logs.php:631
+msgid "Consent saved successfully."
+msgstr "ההסכמה נשמרה בהצלחה."
+
+#: inc/api/consent-logs.php:641
+msgid "Failed to save consent."
+msgstr "שמירת ההסכמה נכשלה."
+
+#: inc/api/consent-logs.php:659
+#: inc/api/consent-logs.php:791
+msgid "Invalid log ID"
+msgstr "מזהה יומן לא חוקי"
+
+#: inc/api/consent-logs.php:671
+msgid "Log not found."
+msgstr "יומן לא נמצא."
+
+#: inc/api/consent-logs.php:707
+#: inc/api/consent-logs.php:734
+msgid "Log details retrieved successfully."
+msgstr "פרטי היומן התקבלו בהצלחה."
+
+#: inc/api/consent-logs.php:756
+msgid "Invalid log IDs"
+msgstr "מזהי יומן לא חוקיים"
+
+#: inc/api/consent-logs.php:767
+#: inc/api/consent-logs.php:862
+msgid "Failed to delete logs."
+msgstr "נכשל המחיקה של היומנים."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:777
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d יומן(ים) נמחקו בהצלחה."
+
+#: inc/api/consent-logs.php:802
+msgid "Log deleted successfully."
+msgstr "היומן נמחק בהצלחה."
+
+#: inc/api/consent-logs.php:811
+msgid "Failed to delete log."
+msgstr "נכשל המחיקה של היומן."
+
+#: inc/api/consent-logs.php:853
+msgid "All logs deleted successfully."
+msgstr "כל היומנים נמחקו בהצלחה."
+
+#: inc/api/cookie-categories.php:176
+msgid "Failed to create category: "
+msgstr "נכשל יצירת הקטגוריה:"
+
+#: inc/api/cookie-categories.php:199
+msgid "Failed to update category: "
+msgstr "נכשל עדכון הקטגוריה:"
+
+#: inc/api/cookie-categories.php:224
+msgid "Failed to delete category: "
+msgstr "נכשל מחיקת הקטגוריה:"
+
+#: inc/api/cookies.php:265
+msgid "Failed to create custom cookie: "
+msgstr "נכשל יצירת עוגייה מותאמת אישית:"
+
+#: inc/api/cookies.php:287
+msgid "Failed to update custom cookie: "
+msgstr "נכשל עדכון עוגייה מותאמת אישית:"
+
+#: inc/api/cookies.php:308
+msgid "Failed to delete custom cookie: "
+msgstr "נכשל מחיקת עוגייה מותאמת אישית:"
+
+#: inc/api/cookies.php:334
+msgid "Failed to update cookie category: "
+msgstr "נכשל עדכון קטגוריית העוגיות:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "נתוני ההכנה נשמרו בהצלחה."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "ההכנה כבר סומנה כהושלמה."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "ההכנה סומנה כהושלמה."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "נתוני התוספים הפרסומיים התקבלו."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "אין לך הרשאה להפעיל תוספים."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "התוסף לא נמצא."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "התוסף הופעל בהצלחה."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "אין לך הרשאה להשבית תוספים."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "התוסף כבר לא פעיל."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:52
+msgid "Plugin deactivated successfully."
+msgstr "התוסף הושבת בהצלחה."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "תוספים מתנגשים התקבלו."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "הפוסט לא נמצא."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "היסטוריית הסריקה התקבלה בהצלחה."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "משאבי הסריקה התקבלו בהצלחה."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "לא נמצאו נתונים"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "הגדרות עודכנו"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "עוגיות חיוניות"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "נדרשות לתפקוד בסיסי של האתר."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "עוגיות פונקציונליות"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "מאפשרות תכונות כמו העדפות שמורות ותוכן מותאם אישית."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "עוגיות אנליטיות"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "עוזרות לנו להבין כיצד מבקרים משתמשים באתר כדי לשפר אותו."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "עוגיות שיווקיות"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "משמשות להצגת מודעות רלוונטיות בהתאם לתחומי העניין שלך."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "עוגיות ללא קטגוריה"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "עוגיות שטרם סווגו."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "ימים"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "שומרות את העדפות הסכמת העוגיות של המשתמש."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "שנה אחת"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "עוקבות אחר סשנים ביומן ההסכמה לצורכי ביקורת."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "הזדהות כבר הושלמה."
+
+#: inc/modules/auth/controller.php:70
+msgid "Could not generate secure auth key."
+msgstr "לא ניתן היה ליצור מפתח הזדהות מאובטח."
+
+#: inc/modules/auth/controller.php:87
+msgid "Failed to encode the token data."
+msgstr "נכשל קידוד נתוני הטוקן."
+
+#: inc/modules/auth/controller.php:178
+msgid "Invalid flow identifier."
+msgstr "מזהה זרימה לא חוקי."
+
+#: inc/modules/auth/controller.php:187
+msgid "Failed to decode the access key."
+msgstr "נכשל פענוח מפתח הגישה."
+
+#: inc/modules/auth/controller.php:192
+msgid "Invalid data format."
+msgstr "פורמט נתונים לא חוקי."
+
+#: inc/modules/auth/controller.php:206
+msgid "Failed to decrypt the access key."
+msgstr "נכשל פענוח מפתח הגישה."
+
+#: inc/modules/auth/controller.php:212
+msgid "Failed to json decode the decrypted data."
+msgstr "נכשל פענוח JSON של הנתונים המפוענחים."
+
+#: inc/modules/auth/controller.php:216
+msgid "No user email found in the decrypted data."
+msgstr "לא נמצא דואר אלקטרוני של משתמש בנתונים המפוענחים."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:53
+msgid "Cookie Policy page already exists."
+msgstr "דף מדיניות העוגיות כבר קיים."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:31
+#: build/admin.js:53
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "מדיניות עוגיות"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "דף מדיניות העוגיות נוצר בהצלחה."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "מדיניות עוגיות זו מסבירה כיצד %s משתמשת בעוגיות ובטכנולוגיות מעקב דומות כאשר אתה מבקר באתר שלנו. היא מתארת מהן הטכנולוגיות הללו, מדוע אנו משתמשים בהן, וזכויותיך לשלוט בשימוש שלנו בהן."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "מהן עוגיות"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "עוגיות הן קבצי טקסט קטנים המאוחסנים במחשב או במכשיר הנייד שלך כאשר אתה מבקר באתר אינטרנט. הן משמשות באופן נרחב להפעלת אתרים בצורה יעילה יותר, לספק חוויית גלישה טובה יותר, ולהעביר מידע לבעלי האתר. עוגיות יכולות להיות \"עקבות\" או \"סשן\". עוגיות עקבות נשארות במכשיר שלך לתקופה מוגדרת או עד למחיקתן, בעוד שעוגיות סשן נמחקות מיד עם סגירת דפדפן האינטרנט שלך."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "בנוסף לעוגיות, ייתכן שנשתמש גם בטכנולוגיות דומות כגון תגי פיקסל, משואות רשת ואחסון מקומי לאיסוף ואחסון מידע. טכנולוגיות אלו פועלות בדומה לעוגיות ומאפשרות לנו לנטר ולשפר את האתר שלנו ואת חוויית השימוש שלך בו."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "סוגי העוגיות שבהן אנו משתמשים"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "אנו משתמשים בסוגים שונים של עוגיות למטרות שונות. הטבלה למטה מספקת מידע מפורט על העוגיות שבהן אנו משתמשים, מאורגנות לפי קטגוריה, כולל שם כל עוגיה, מטרתה, משכה והדומיין אליו היא שייכת. חלק מהעוגיות חיוניות לתפקוד התקין של האתר, בעוד שאחרות עוזרות לנו להבין כיצד מבקרים מתקשרים עם האתר שלנו, לזכור את ההעדפות שלך או לספק פרסום רלוונטי."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "כיצד לנהל את העדפות העוגיות שלך"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "כאשר אתה מבקר באתר שלנו לראשונה, יוצג בפניך באנר הסכמה לעוגיות המאפשר לך לקבל או לדחות עוגיות שאינן חיוניות. באפשרותך לשנות את ההעדפות שלך בכל עת על ידי לחיצה על אפשרות העדפות העוגיות הזמינה באתר שלנו. עוגיות חיוניות אינן ניתנות לביטול מכיוון שהן נחוצות לתפקוד הבסיסי של האתר."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "שים לב שהגבלת עוגיות עשויה להשפיע על חוויית השימוש שלך באתר, שכן חלק מהפונקציות והשירותים עשויים לא לפעול כראוי ללא הפעלת עוגיות מסוימות."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "כיצד לשלוט בעוגיות בדפדפן שלך"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "רוב דפדפני האינטרנט מאפשרים לך לנהל את העדפות העוגיות דרך ההגדרות שלהם. באפשרותך להגדיר את הדפדפן שלך לסרב לעוגיות, למחוק עוגיות קיימות או להתריע כאשר עוגיה מוגדרת. השלבים לניהול עוגיות משתנים בין דפדפנים. להלן הוראות כלליות לדפדפנים הנפוצים ביותר."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: פתח הגדרות, עבור לפרטיות ואבטחה, ואז לחץ על עוגיות ונתוני אתר אחרים. משם תוכל לחסום עוגיות צד שלישי, לנקות עוגיות בעת סגירת הדפדפן או לחסום את כל העוגיות."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: פתח הגדרות, עבור לפרטיות ואבטחה, ותחת עוגיות ונתוני אתר תוכל לנהל כיצד Firefox מטפל בעוגיות כולל ניקוי נתונים וניהול חריגים."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "ספארי: פתח העדפות, עבור ללשונית פרטיות, וקבע את העדפות חסימת העוגיות שלך. ספארי מציע גם אפשרות למנוע מעקב בין אתרים."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: פתח הגדרות, עבור לפרטיות, חיפוש ושירותים. תחת סעיף העוגיות, תוכל לבחור לחסום עוגיות של צד שלישי או את כל העוגיות ולנהל חריגות לעוגיות."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "השלכות של השבתת עוגיות"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "אם תבחר להשבית או לדחות עוגיות, חלקים מסוימים באתר זה עשויים לא לפעול כמתוכנן. לדוגמה, ייתכן שלא תוכל להיכנס, ההעדפות שלך לא יישמרו בין ביקורים, ותכונות אינטראקטיביות מסוימות עשויות להיות מוגבלות. השבתת עוגיות חיוניות עשויה למנוע שימוש בחלק או בכל השירותים הניתנים דרך אתר זה."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "השבתת עוגיות אנליטיות או שיווקיות לא תשפיע על הפונקציונליות המרכזית של האתר, אך עשויה להגביל את יכולתנו לשפר את האתר בהתבסס על התנהגות המשתמש או לספק לך תוכן ופרסומות מותאמים אישית."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "שינויים במדיניות העוגיות הזו"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "אנו עשויים לעדכן מדיניות עוגיות זו מעת לעת כדי לשקף שינויים בטכנולוגיה, בחקיקה, בפעילות העסקית שלנו או מכל סיבה אחרת שנראה לנו נחוצה או מתאימה. כל שינוי יפורסם בדף זה עם תאריך עדכון מעודכן. אנו ממליצים לך לעיין במדיניות עוגיות זו באופן תקופתי כדי להישאר מעודכן לגבי אופן השימוש שלנו בעוגיות."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "צור קשר"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "אם יש לך שאלות או חששות לגבי מדיניות העוגיות הזו או השימוש שלנו בעוגיות, אנא צור קשר איתנו בכתובת:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[שם החברה שלך], [הכתובת שלך], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "תוכן העניינים"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:21
+msgid "Cookie Name"
+msgstr "שם העוגיה"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:21
+msgid "Purpose"
+msgstr "מטרה"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Duration"
+msgstr "משך"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:21
+msgid "Domain"
+msgstr "דומיין"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "עודכן לאחרונה: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "אתר זה"
+
+#: inc/modules/google-consent-mode/consent-handler.php:124
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:126
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "מצב ההסכמה של Google Site Kit פעיל. אנא השבת אותו בהגדרות Site Kit כדי להשתמש ביישום SureCookie."
+
+#: inc/modules/nudges/api.php:69
+msgid "Invalid type provided."
+msgstr "סוג שסופק אינו חוקי."
+
+#: inc/modules/nudges/api.php:90
+msgid "Could not disable the nudge. Please try again."
+msgstr "לא ניתן להשבית את הדחיפה. אנא נסה שוב."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:96
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" הושבת."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:285
+#: inc/modules/script-blocking/blocker.php:1041
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "תוכן זה חסום כי הוא דורש עוגיות %s."
+
+#: inc/integrations/presto-player/block-handler.php:223
+#: inc/modules/script-blocking/blocker.php:1048
+msgid "Accept & Load"
+msgstr "קבל וטעון"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "הסריקה בוטלה בהצלחה."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "אין סריקה פעילה לביטול."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:252
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "סריקה כבר מתבצעת. אנא המתן לסיומה."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:75
+#: inc/modules/site-scanner/saas-client.php:259
+msgid "No pages selected for scanning."
+msgstr "לא נבחרו דפים לסריקה."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "ההפעלה של הסריקה נכשלה."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "סריקת עוגיות הושקה."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "הסריקה מתבצעת. תקבל הודעה כאשר היא תסתיים."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "ההפעלה של סורק האתר נכשלה: %s"
+
+#: inc/modules/site-scanner/cron.php:69
+msgid "Starting site scan (triggered by user)."
+msgstr "מתחיל סריקת אתר (הופעלה על ידי המשתמש)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:91
+#, php-format
+msgid "Plan: %s."
+msgstr "תוכנית: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Pages selected: %d."
+msgstr "דפים שנבחרו: %d."
+
+#: inc/modules/site-scanner/cron.php:94
+msgid "Sending scan request…"
+msgstr "שולח בקשת סריקה…"
+
+#: inc/modules/site-scanner/cron.php:100
+msgid "Scan already in progress. Skipping."
+msgstr "סריקה כבר מתבצעת. מדלגים."
+
+#: inc/modules/site-scanner/cron.php:113
+msgid "Scan started successfully."
+msgstr "הסריקה התחילה בהצלחה."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:114
+#, php-format
+msgid "Group ID: %s"
+msgstr "מזהה קבוצה: %s"
+
+#: inc/modules/site-scanner/cron.php:116
+msgid "Checking scan progress…"
+msgstr "בודק את התקדמות הסריקה…"
+
+#: inc/modules/site-scanner/cron.php:121
+msgid "Scan failed."
+msgstr "הסריקה נכשלה."
+
+#: inc/modules/site-scanner/cron.php:141
+msgid "No active scan."
+msgstr "אין סריקה פעילה."
+
+#: inc/modules/site-scanner/cron.php:158
+msgid "Scan in progress..."
+msgstr "הסריקה מתבצעת..."
+
+#: inc/modules/site-scanner/cron.php:178
+msgid "Scan cancelled by user."
+msgstr "הסריקה בוטלה על ידי המשתמש."
+
+#: inc/modules/site-scanner/saas-client.php:132
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "כל דקה אחת (בדיקת SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:243
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "סריקת עוגיות אינה זמינה עבור localhost או אתרי פיתוח. אנא השתמש בדומיין חי."
+
+#: inc/modules/site-scanner/saas-client.php:274
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "לא ניתן ליצור אסימון סריקה מאובטח. אנא נסה שוב."
+
+#: inc/modules/site-scanner/saas-client.php:296
+msgid "Failed to encode scan request."
+msgstr "הקידוד של בקשת הסריקה נכשל."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:343
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "ההפעלה של הסריקה נכשלה: %s"
+
+#: inc/modules/site-scanner/saas-client.php:382
+msgid "Unknown error occurred."
+msgstr "אירעה שגיאה לא ידועה."
+
+#: inc/modules/site-scanner/saas-client.php:450
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "הסריקה הושקה. תקבל הודעה כאשר היא תסתיים."
+
+#: inc/modules/site-scanner/saas-client.php:492
+msgid "Failed to check scan status."
+msgstr "הבדיקה של מצב הסריקה נכשלה."
+
+#: inc/modules/site-scanner/saas-client.php:628
+msgid "Failed to get scan group."
+msgstr "השליפה של קבוצת הסריקה נכשלה."
+
+#: inc/modules/site-scanner/saas-client.php:718
+msgid "Scan timed out. Please try again."
+msgstr "הסריקה פגה בזמן. אנא נסה שוב."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:756
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "התקדמות: %1$d מתוך %2$d דפים נסרקו."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:766
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d דף(ים) נכשלו בסריקה."
+
+#: inc/modules/site-scanner/saas-client.php:789
+msgid "Scan completed!"
+msgstr "הסריקה הושלמה!"
+
+#: inc/modules/site-scanner/saas-client.php:808
+msgid "Scan failed on server."
+msgstr "הסריקה נכשלה בשרת."
+
+#: inc/modules/site-scanner/saas-client.php:814
+msgid "Scan is in progress. Checking again…"
+msgstr "הסריקה מתבצעת. בודק שוב…"
+
+#: inc/modules/site-scanner/saas-client.php:856
+msgid "Quota is not available on localhost or development sites."
+msgstr "המכסה אינה זמינה ב-localhost או באתרים לפיתוח."
+
+#: inc/modules/site-scanner/saas-client.php:870
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "פרטי הסורק עדיין לא הונפקו. הפעל את הסריקה הראשונה שלך כדי להירשם."
+
+#: inc/modules/site-scanner/saas-client.php:916
+msgid "Unexpected response from server."
+msgstr "תגובה בלתי צפויה מהשרת."
+
+#: inc/modules/site-scanner/saas-client.php:964
+msgid "Authentication required."
+msgstr "נדרשת אימות."
+
+#: inc/modules/site-scanner/saas-client.php:974
+msgid "Failed to fetch quota."
+msgstr "השליפה של המכסה נכשלה."
+
+#: inc/modules/site-scanner/saas-client.php:1201
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "רישום נוסף כבר מתבצע. אנא נסה שוב בעוד רגע."
+
+#: inc/modules/site-scanner/saas-client.php:1231
+msgid "Could not determine site domain."
+msgstr "לא ניתן לקבוע את דומיין האתר."
+
+#: inc/modules/site-scanner/saas-client.php:1243
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "לא ניתן ליצור nonce רישום מאובטח. אנא נסה שוב."
+
+#: inc/modules/site-scanner/saas-client.php:1271
+msgid "Failed to encode registration request."
+msgstr "הקידוד של בקשת הרישום נכשל."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1293
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "לא ניתן להגיע לשירות SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1307
+msgid "Registration could not be initiated."
+msgstr "הרישום לא יכול היה להתחיל."
+
+#: inc/modules/site-scanner/saas-client.php:1323
+msgid "Received an invalid verification token. Please retry."
+msgstr "התקבל אסימון אימות לא חוקי. אנא נסה שוב."
+
+#: inc/modules/site-scanner/saas-client.php:1341
+msgid "Failed to encode verification completion."
+msgstr "הקידוד של השלמת האימות נכשל."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to fetch results."
+msgstr "השליפה של התוצאות נכשלה."
+
+#: inc/services/cookie-category-service.php:45
+msgid "Cookie categories retrieved successfully."
+msgstr "קטגוריות העוגיות התקבלו בהצלחה."
+
+#: inc/services/cookie-category-service.php:66
+msgid "Category name is required."
+msgstr "שם קטגוריה נדרש."
+
+#: inc/services/cookie-category-service.php:77
+msgid "A category with this name already exists."
+msgstr "קטגוריה עם שם זה כבר קיימת."
+
+#: inc/services/cookie-category-service.php:94
+msgid "Category created successfully."
+msgstr "הקטגוריה נוצרה בהצלחה."
+
+#: inc/services/cookie-category-service.php:115
+#: inc/services/cookie-category-service.php:180
+msgid "Category ID is required."
+msgstr "מזהה קטגוריה נדרש."
+
+#: inc/services/cookie-category-service.php:125
+#: inc/services/cookie-category-service.php:199
+msgid "Category not found."
+msgstr "הקטגוריה לא נמצאה."
+
+#: inc/services/cookie-category-service.php:157
+msgid "Category updated successfully."
+msgstr "הקטגוריה עודכנה בהצלחה."
+
+#: inc/services/cookie-category-service.php:189
+msgid "Default categories cannot be deleted."
+msgstr "לא ניתן למחוק קטגוריות ברירת מחדל."
+
+#: inc/services/cookie-category-service.php:238
+msgid "Category deleted successfully."
+msgstr "הקטגוריה נמחקה בהצלחה."
+
+#: inc/services/cookie-service.php:52
+#: inc/services/cookie-service.php:333
+msgid "No scanned cookies found."
+msgstr "לא נמצאו עוגיות שנסרקו."
+
+#: inc/services/cookie-service.php:76
+msgid "Scanned cookies retrieved successfully."
+msgstr "העוגיות שנסרקו התקבלו בהצלחה."
+
+#: inc/services/cookie-service.php:93
+msgid "Custom cookies retrieved successfully."
+msgstr "העוגיות המותאמות אישית התקבלו בהצלחה."
+
+#: inc/services/cookie-service.php:121
+#: inc/services/cookie-service.php:301
+msgid "Cookie name is required."
+msgstr "שם העוגייה נדרש."
+
+#: inc/services/cookie-service.php:128
+msgid "Cookie category is required."
+msgstr "קטגוריית העוגייה נדרשת."
+
+#: inc/services/cookie-service.php:139
+msgid "A cookie with this name already exists."
+msgstr "עוגייה עם שם זה כבר קיימת."
+
+#: inc/services/cookie-service.php:171
+msgid "Custom cookie created successfully."
+msgstr "עוגייה מותאמת אישית נוצרה בהצלחה."
+
+#: inc/services/cookie-service.php:190
+#: inc/services/cookie-service.php:260
+msgid "Cookie ID is required."
+msgstr "מזהה העוגייה נדרש."
+
+#: inc/services/cookie-service.php:199
+#: inc/services/cookie-service.php:269
+msgid "Cookie not found."
+msgstr "העוגייה לא נמצאה."
+
+#: inc/services/cookie-service.php:242
+msgid "Custom cookie updated successfully."
+msgstr "עוגייה מותאמת אישית עודכנה בהצלחה."
+
+#: inc/services/cookie-service.php:279
+msgid "Custom cookie deleted successfully."
+msgstr "עוגייה מותאמת אישית נמחקה בהצלחה."
+
+#: inc/services/cookie-service.php:308
+msgid "Current category is required."
+msgstr "הקטגוריה הנוכחית נדרשת."
+
+#: inc/services/cookie-service.php:315
+msgid "New category is required."
+msgstr "קטגוריה חדשה נדרשת."
+
+#: inc/services/cookie-service.php:323
+msgid "Cookie is already in the selected category."
+msgstr "העוגייה כבר נמצאת בקטגוריה שנבחרה."
+
+#: inc/services/cookie-service.php:341
+msgid "Current category not found in scanned cookies."
+msgstr "הקטגוריה הנוכחית לא נמצאה בעוגיות הסרוקות."
+
+#: inc/services/cookie-service.php:360
+msgid "Cookie not found in the specified category."
+msgstr "העוגייה לא נמצאה בקטגוריה שצוינה."
+
+#: inc/services/cookie-service.php:380
+msgid "Cookie category updated successfully."
+msgstr "קטגוריית העוגייה עודכנה בהצלחה."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "אנו משתמשים בעוגיות כדי לשפר את החוויה שלך ולהבין כיצד אתה משתמש באתר שלנו. באפשרותך לעיין בבחירות שלך בכל עת."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "רק חיוניות"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Accept All"
+msgstr "קבל הכל"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Decline"
+msgstr "סרב"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "הגדרות עוגיות"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Preferences"
+msgstr "העדפות"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "העדפת פרטיות"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "אנו משתמשים בעוגיות וטכנולוגיות דומות כדי לעזור להתאים תוכן, לכוון ולמדוד פרסומות, ולספק חוויה טובה יותר."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:5
+#: build/admin.js:52
+msgid "Cookie Preferences"
+msgstr "העדפות עוגיות"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/admin.js:5
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "התקבל"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "התקבל חלקית"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/admin.js:5
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "נדחה"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "נכשל בטעינת יומני ההסכמה"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "נכשל בטעינת תוספים מתנגשים"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "נכשל בטעינת קטגוריות העוגיות"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "הסריקה בוטלה."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "נכשל בביטול הסריקה."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:24
+#: build/admin.js:34
+#: build/admin.js:52
+#: build/admin.js:53
+#: build/admin.js:62
+msgid "Failed to load settings"
+msgstr "נכשל בטעינת ההגדרות"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "נכשל בשמירת ההגדרות"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 ימים"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 ימים"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 ימים"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 ימים"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "לעולם לא"
+
+#: build/admin.js:44
+#: build/admin.js:52
+msgid "Cookie Scanner"
+msgstr "סורק עוגיות"
+
+#: build/admin.js:2
+#: build/admin.js:24
+msgid "All Cookies"
+msgstr "כל העוגיות"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "באנר"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "תוכן"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "פריסה"
+
+#: build/admin.js:2
+#: build/admin.js:53
+msgid "Visibility"
+msgstr "נראות"
+
+#: build/admin.js:2
+#: build/admin.js:52
+msgid "Re-Consent"
+msgstr "הסכמה מחדש"
+
+#: build/admin.js:2
+#: build/admin.js:24
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: build/admin.js:2
+#: build/admin.js:59
+msgid "Geographic Targeting"
+msgstr "מיקוד גאוגרפי"
+
+#: build/admin.js:2
+#: build/admin.js:53
+msgid "Resource Blocking"
+msgstr "חסימת משאבים"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "מצב הסכמה של גוגל"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "הסכמה נוספת"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "יומני הסכמה"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "פג תוקף האימות. אנא נסה שוב."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "האימות הצליח!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "אירעה שגיאה במהלך האימות"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "האימות בוטל. אנא נסה שוב."
+
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:24
+msgid "Cancel"
+msgstr "בטל"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:24
+msgid "Delete"
+msgstr "מחק"
+
+#: build/admin.js:2
+#: build/admin.js:24
+#: build/admin.js:58
+msgid "Save"
+msgstr "שמור"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "אין אפשרויות זמינות"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "האימות הצליח"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "האימות הושלם בהצלחה. סגירת הכרטיסייה בעוד 3 שניות…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "האימות נכשל"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "אנא חזור ללוח הבקרה של SureCookie ונסה שוב."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Let's Get Started"
+msgstr "בוא נתחיל"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "זיהוי אוטומטי של עוגיות"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "קטלוג חכם"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "המלצות לציות"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "התחבר לסרוק את האתר שלך"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "התחבר לחשבון SureCookie שלך כדי לזהות אוטומטית עוגיות באתר שלך, לקטלג אותן ולקבל המלצות לציות."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "למידע נוסף"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "הגעת למגבלת התוכנית החינמית"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:28
+#: build/admin.js:34
+#: build/admin.js:40
+#: build/admin.js:52
+#: build/onboarding.js:2
+msgid "Upgrade Now"
+msgstr "שדרג עכשיו"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "פתח תכונה זו"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "API של עדכוני WordPress אינו זמין."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "הפעלת התוסף נכשלה."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "התקנת התוסף נכשלה."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "התוסף הותקן והופעל בהצלחה."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "נכשל בהתקנה ובהפעלה של התוסף."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "נכשל בהפעלת התוסף."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "התקן והפעל"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "הפעל"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "הופעל"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "ההגדרות נשמרו!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "ההגדרות שלך נשמרו בהצלחה."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "שמירה נכשלה!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "אירעה שגיאה בשמירת ההגדרות. אנא נסה שוב."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "שומר…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "תוכן הבאנר"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "הגדר את תוכן הטקסט שמופיע בבאנר הסכמת העוגיות ובחלון ההעדפות"
+
+#: build/admin.js:2
+#: build/admin.js:24
+#: build/admin.js:34
+#: build/admin.js:52
+#: build/admin.js:53
+#: build/admin.js:62
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "אירעה שגיאה בטעינת ההגדרות. אנא רענן את הדף ונסה שוב."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "הפעל מתג באנר העוגיות"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "הצג באנר הסכמת עוגיות כדי לעמוד בתקנות הפרטיות."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "הפעל באנר עוגיות"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "באנר הסכמה"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "חלון העדפות"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "כותרת הבאנר"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "הודעת עוגיות (אופציונלי)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "הודעת הבאנר"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "הפעל כפתור \"קבל הכל\""
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "הצג את כפתור \"קבל הכל\" בבאנר ההסכמה. כאשר כבוי, הכפתור מוסר מהבאנר ומרשימת סדר הכפתורים."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "כותרת חלון ההעדפות"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "תיאור חלון ההעדפות"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "תיאור חלון ההעדפות לא יכול להיות ריק."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "הודעת הבאנר לא יכולה להיות ריקה."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "סדר הכפתורים"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "גרור ושחרר כדי לשנות את סדר הכפתורים. סדר זה יכול להיות מוחלף לפי כלל מיקוד גאוגרפי."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "פריסת הבאנר"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "הגדר כיצד והיכן הבאנר שלך מופיע באתר שלך"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "העלה לוגו"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "לוגו"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "בחר לוגו"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "השתמש בלוגו זה"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "סוג הבאנר"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "באנר צף"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "באנר ברוחב מלא"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "רוחב הבאנר"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "מיקום"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "תחתית שמאל"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "תחתית מרכז"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "תחתית ימין"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "אמצע"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "חלק עליון"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "תחתית"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "אנימציית הבאנר"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "דהייה"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "החלקה"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "פלטת צבעים: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "פרטי הסכמה"
+
+#: build/admin.js:4
+#: build/admin.js:21
+#: build/admin.js:53
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "אין נתונים זמינים."
+
+#: build/admin.js:4
+#: build/admin.js:21
+msgid "Actions"
+msgstr "פעולות"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "יומני הסכמה"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "תאריך ושעה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "IP Address"
+msgstr "כתובת IP"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Country"
+msgstr "מדינה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Status"
+msgstr "סטטוס"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "הורד PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "הורד PDF עבור יומן הסכמה מ-%s"
+
+#: build/admin.js:5
+msgid "Session Summary"
+msgstr "סיכום מושב"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Field"
+msgstr "שדה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Value"
+msgstr "ערך"
+
+#: build/admin.js:5
+msgid "Session ID"
+msgstr "מזהה מושב"
+
+#: build/admin.js:5
+msgid "Total Records"
+msgstr "סך הרשומות"
+
+#: build/admin.js:5
+msgid "Date Range"
+msgstr "טווח תאריכים"
+
+#: build/admin.js:5
+msgid "Consent Record"
+msgstr "רשומת הסכמה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Log ID"
+msgstr "מזהה יומן"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Timestamp"
+msgstr "חותמת זמן"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Consent Status"
+msgstr "סטטוס הסכמה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "Consent Preset"
+msgstr "הגדרת הסכמה מראש"
+
+#: build/admin.js:4
+#: build/admin.js:5
+#: build/admin.js:21
+#: build/admin.js:53
+msgid "Category"
+msgstr "קטגוריה"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "מידע משפטי"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "תאריך יצירה"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "מחק יומן הסכמה מ-%s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "יומן ההסכמה ריק"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "יומני ההסכמה שלך יוצגו כאן ברגע שמשתמשים יתקשרו עם הבאנר"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "רישום הסכמה מושבת"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "הפעל רישום הסכמה כדי לצפות בנתוני ניתוח ויומני הסכמה אחרונים."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "הפעלת רישום הסכמה"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> נבחר"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "מוחק…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "כל הפעולות"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "כל המדינות"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "כתובת IP או מזהה מושב…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "נקה מסננים"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "הצג את כל היומנים"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "הסכמות"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "אין הסכמות עדיין"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "הנתונים יופיעו כאן ברגע שמבקרים יתקשרו עם באנר העוגיות."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "נכשל במחיקת הסכמה %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "יומן"
+msgstr[1] "יומנים"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "הסכמה %s נמחקה בהצלחה"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "נכשל במחיקת יומן ההסכמה"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "מחק יומן הסכמה"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק יומן הסכמה זה? פעולה זו אינה ניתנת לביטול."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "מחק יומני הסכמה שנבחרו"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק את %s הסכמות שנבחרו? פעולה זו אינה ניתנת לביטול."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "נכשל בטעינת מדינות"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "עמוד"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "מתוך"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "דפדוף ביומני הסכמה"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "משך ההסכמה (בימים)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "אנא הזן ערך בין 1 ל-365 ימים."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "כמה זמן ההסכמה של המשתמש נשארת בתוקף לפני שדורשת חידוש (1–365 ימים)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "מתג הפעלת רישום הסכמה"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "אחסן רשומות הסכמה במסד הנתונים לדיווח תאימות וניתוח."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "נקה יומנים לאחר"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "בחר תקופת שמירה"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "מחק אוטומטית יומני הסכמה שגילם עולה על התקופה שנבחרה."
+
+#: build/admin.js:34
+msgid "SureCookie admin menu location toggle"
+msgstr "מתג מיקום תפריט מנהל SureCookie"
+
+#: build/admin.js:34
+msgid "Hide SureCookie branding toggle"
+msgstr "מתג הסתרת מיתוג SureCookie"
+
+#: build/admin.js:34
+msgid "Hide SureCookie Branding"
+msgstr "הסתר מיתוג SureCookie"
+
+#: build/admin.js:34
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "הסר את הטקסט \"מופעל על ידי SureCookie\" מבאנר ההסכמה ומחלון ההעדפות."
+
+#: build/admin.js:34
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "כדי להסיר את הטקסט \"מופעל על ידי SureCookie\" מבאנר ההסכמה ומחלון ההעדפות."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "מקש מחיקה של נתונים בעת הסרת התקנה"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "מחק נתונים בעת הסרת התקנה"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "כאשר מופעל, כל נתוני התוסף כולל יומני הסכמה, הגדרות ותוצאות סריקה יימחקו לצמיתות בעת הסרת SureCookie. השאר מושבת כדי לשמור על הנתונים לרישומי תאימות או להתקנה עתידית."
+
+#: build/admin.js:34
+msgid "Contribute to SureCookie toggle"
+msgstr "מקש תרומה ל-SureCookie"
+
+#: build/admin.js:34
+msgid "Contribute to SureCookie"
+msgstr "תרום ל-SureCookie"
+
+#: build/admin.js:34
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "עזור לעצב את עתיד SureCookie. שתף כיצד אתה משתמש בתוסף כדי שנוכל לבנות תכונות חשובות, לתקן בעיות מהר יותר ולקבל החלטות חכמות יותר."
+
+#: build/admin.js:34
+#: build/admin.js:59
+msgid "Learn More"
+msgstr "למידע נוסף"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "הודעת תאימות"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "יומני הסכמה עשויים להידרש כהוכחה להסכמה לפי סעיף 7(1) של GDPR. שקול לייצא רשומות הסכמה לפני הסרת ההתקנה."
+
+#: build/admin.js:21
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Name"
+msgstr "שם"
+
+#: build/admin.js:21
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Provider"
+msgstr "ספק"
+
+#: build/admin.js:21
+msgid "Duration (Days)"
+msgstr "משך (ימים)"
+
+#: build/admin.js:21
+#: build/admin.js:53
+msgid "Type"
+msgstr "סוג"
+
+#: build/admin.js:21
+#: build/admin.js:53
+msgid "Uncategorized"
+msgstr "ללא קטגוריה"
+
+#: build/admin.js:21
+msgid "Change Category"
+msgstr "שנה קטגוריה"
+
+#: build/admin.js:21
+#: build/admin.js:24
+msgid "Edit"
+msgstr "ערוך"
+
+#: build/admin.js:21
+msgid "Scanned"
+msgstr "נסרק"
+
+#: build/admin.js:21
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: build/admin.js:21
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק את העוגייה \"<strong></strong>\"? פעולה זו אינה ניתנת לביטול."
+
+#: build/admin.js:21
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק את העוגייה הזו? פעולה זו אינה ניתנת לביטול."
+
+#: build/admin.js:21
+msgid "Delete Custom Cookie"
+msgstr "מחק עוגייה מותאמת אישית"
+
+#: build/admin.js:21
+msgid "Change Cookie Category"
+msgstr "שנה קטגוריית עוגייה"
+
+#: build/admin.js:21
+msgid "Update Category"
+msgstr "עדכן קטגוריה"
+
+#: build/admin.js:21
+msgid "Edit Cookie"
+msgstr "ערוך עוגייה"
+
+#: build/admin.js:21
+msgid "Update Cookie"
+msgstr "עדכן עוגייה"
+
+#: build/admin.js:21
+msgid "Add New Cookie"
+msgstr "הוסף עוגייה חדשה"
+
+#: build/admin.js:21
+msgid "Save Cookie"
+msgstr "שמור עוגייה"
+
+#: build/admin.js:21
+msgid "e.g., my_custom_cookie"
+msgstr "למשל, my_custom_cookie"
+
+#: build/admin.js:21
+msgid "Select a category"
+msgstr "בחר קטגוריה"
+
+#: build/admin.js:21
+msgid "No categories available. Please create a category first."
+msgstr "אין קטגוריות זמינות. אנא צור קטגוריה תחילה."
+
+#: build/admin.js:21
+msgid "e.g., 30"
+msgstr "למשל, 30"
+
+#: build/admin.js:21
+msgid "e.g., Your Company Name"
+msgstr "למשל, שם החברה שלך"
+
+#: build/admin.js:21
+msgid "e.g., .example.com"
+msgstr "למשל, .example.com"
+
+#: build/admin.js:21
+msgid "Description"
+msgstr "תיאור"
+
+#: build/admin.js:21
+msgid "Enter a description for this cookie…"
+msgstr "הזן תיאור לעוגייה זו…"
+
+#: build/admin.js:21
+msgid "Describe the purpose of this cookie…"
+msgstr "תאר את מטרת העוגייה הזו…"
+
+#: build/admin.js:21
+msgid "Category Name"
+msgstr "שם קטגוריה"
+
+#: build/admin.js:21
+msgid "e.g., Performance Cookies"
+msgstr "למשל, עוגיות ביצועים"
+
+#: build/admin.js:21
+msgid "Enter a description for this cookie category…"
+msgstr "הזן תיאור לקטגוריית העוגיות הזו…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:24
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "האם אתה בטוח שברצונך למחוק את קטגוריית העוגיות הזו? <br/> לקטגוריה \"%1$s\" יש %2$s עוגיות משוייכות אליה:"
+
+#: build/admin.js:24
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "עוגייה"
+msgstr[1] "עוגיות"
+
+#: build/admin.js:24
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק את קטגוריית העוגיות הזו? פעולה זו אינה ניתנת לביטול."
+
+#: build/admin.js:24
+msgid "Delete Cookie Category"
+msgstr "מחק קטגוריית עוגיות"
+
+#: build/admin.js:24
+msgid "Keep cookies when deleting category"
+msgstr "שמור עוגיות בעת מחיקת קטגוריה"
+
+#: build/admin.js:24
+msgid "Keep cookies"
+msgstr "שמור עוגיות"
+
+#: build/admin.js:24
+msgid "Assigned cookies will be moved to \"Uncategorized\"."
+msgstr "העוגיות המשוייכות יועברו ל\"ללא קטגוריה\"."
+
+#: build/admin.js:24
+#: build/onboarding.js:1
+msgid "Please enter a category name"
+msgstr "אנא הזן שם קטגוריה"
+
+#: build/admin.js:24
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "לא נמצאו קטגוריות עוגיות. לחץ על \"הוסף קטגוריה חדשה\" כדי ליצור אחת."
+
+#: build/admin.js:24
+msgid "Edit Category"
+msgstr "ערוך קטגוריה"
+
+#: build/admin.js:24
+msgid "Add New Category"
+msgstr "הוסף קטגוריה חדשה"
+
+#: build/admin.js:24
+msgid "Manage Categories"
+msgstr "נהל קטגוריות"
+
+#: build/admin.js:24
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "נהל קטגוריות עוגיות שמופיעות במודאל העדפות הפרטיות"
+
+#: build/admin.js:24
+msgid "Add Category"
+msgstr "הוסף קטגוריה"
+
+#: build/admin.js:24
+#: build/onboarding.js:1
+msgid "Please enter a cookie name"
+msgstr "אנא הזן שם עוגייה"
+
+#: build/admin.js:24
+#: build/onboarding.js:1
+msgid "Please select a category"
+msgstr "אנא בחר קטגוריה"
+
+#: build/admin.js:24
+msgid "Failed to load custom cookies"
+msgstr "טעינת עוגיות מותאמות אישית נכשלה"
+
+#: build/admin.js:24
+msgid "Failed to create custom cookie"
+msgstr "יצירת עוגייה מותאמת אישית נכשלה"
+
+#: build/admin.js:24
+msgid "Custom cookie created successfully"
+msgstr "עוגייה מותאמת אישית נוצרה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to update custom cookie"
+msgstr "עדכון עוגייה מותאמת אישית נכשל"
+
+#: build/admin.js:24
+msgid "Custom cookie updated successfully"
+msgstr "עוגייה מותאמת עודכנה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to delete custom cookie"
+msgstr "נכשל במחיקת העוגייה המותאמת"
+
+#: build/admin.js:24
+msgid "Custom cookie deleted successfully"
+msgstr "עוגייה מותאמת נמחקה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to update cookie category"
+msgstr "נכשל בעדכון קטגוריית העוגייה"
+
+#: build/admin.js:24
+msgid "Cookie category updated successfully"
+msgstr "קטגוריית העוגייה עודכנה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to create category"
+msgstr "נכשל ביצירת קטגוריה"
+
+#: build/admin.js:24
+msgid "Category created successfully"
+msgstr "הקטגוריה נוצרה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to update category"
+msgstr "נכשל בעדכון הקטגוריה"
+
+#: build/admin.js:24
+msgid "Category updated successfully"
+msgstr "הקטגוריה עודכנה בהצלחה"
+
+#: build/admin.js:24
+msgid "Failed to delete category"
+msgstr "נכשל במחיקת הקטגוריה"
+
+#: build/admin.js:24
+msgid "Category deleted successfully"
+msgstr "הקטגוריה נמחקה בהצלחה"
+
+#: build/admin.js:24
+msgid "Manage All Cookies"
+msgstr "ניהול כל העוגיות"
+
+#: build/admin.js:24
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "צור ונהל את כל העוגיות עבור האתר שלך. עוגיות אלו יופיעו בקטגוריות העדפות הפרטיות שנבחרו."
+
+#: build/admin.js:24
+msgid "Manage Cookies"
+msgstr "ניהול עוגיות"
+
+#: build/admin.js:24
+msgid "New Cookie"
+msgstr "עוגייה חדשה"
+
+#: build/admin.js:24
+msgid "All your cookies will be displayed here"
+msgstr "כל העוגיות שלך יוצגו כאן"
+
+#: build/admin.js:24
+msgid "Click the button below to create your first custom cookie"
+msgstr "לחץ על הכפתור למטה כדי ליצור את העוגייה המותאמת הראשונה שלך"
+
+#: build/admin.js:24
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "הוסף CSS מותאם לעיצוב באנר העוגיות שלך. השינויים ישתקפו גם בתצוגה מקדימה וגם בחזית לאחר השמירה."
+
+#: build/admin.js:24
+msgid "CSS Code Editor"
+msgstr "עורך קוד CSS"
+
+#: build/admin.js:24
+msgid "Reset Custom CSS"
+msgstr "איפוס CSS מותאם"
+
+#: build/admin.js:24
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "האם אתה בטוח שברצונך לאפס את ה-CSS המותאם? פעולה זו תסיר את כל הסגנונות המותאמים שלך."
+
+#: build/admin.js:24
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "ה-CSS המותאם אופס. כעת הבאנר ישתמש בסגנונות ברירת המחדל."
+
+#: build/admin.js:24
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "כתוב את ה-CSS המותאם שלך למטה. השתמש ב-<strong>!important</strong> כדי לעקוף סגנונות פנימיים.<br />אתה יכול לכוון אלמנטים בבאנר באמצעות מחלקות כמו <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, וכו'."
+
+#: build/admin.js:24
+#: build/admin.js:40
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> טיפים מהירים:"
+
+#: build/admin.js:24
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "השתמש ב-<b>.surecookie-banner</b> כדי לכוון את באנר העוגיות (עובד גם בתצוגה מקדימה וגם בחזית)"
+
+#: build/admin.js:24
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "השתמש ב-<b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> עבור כפתורים"
+
+#: build/admin.js:24
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "חשוב: השתמש ב-<b>!important</b> כדי לעקוף סגנונות פנימיים"
+
+#: build/admin.js:24
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "השינויים ייכנסו לתוקף לאחר לחיצה על \"שמור שינויים\" למטה"
+
+#: build/admin.js:24
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "ה-CSS שלך נשמר וישמר לאחר רענון הדף"
+
+#: build/admin.js:24
+msgid "Disabled"
+msgstr "מושבת"
+
+#: build/admin.js:24
+msgid "Consent Logging"
+msgstr "רישום הסכמה"
+
+#: build/admin.js:24
+msgid "Enable consent logging to view consent analytics"
+msgstr "הפעל רישום הסכמה לצפייה בניתוחי הסכמה"
+
+#: build/admin.js:24
+msgid "Enable"
+msgstr "הפעל"
+
+#: build/admin.js:24
+msgid "Overview"
+msgstr "סקירה כללית"
+
+#: build/admin.js:24
+msgid "Active"
+msgstr "פעיל"
+
+#: build/admin.js:24
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: build/admin.js:24
+msgid "Cookie Banner"
+msgstr "באנר עוגיות"
+
+#: build/admin.js:24
+#: build/admin.js:28
+msgid "Configure"
+msgstr "הגדר"
+
+#: build/admin.js:25
+#: build/onboarding.js:1
+msgid "Launch Setup Wizard"
+msgstr "הפעל אשף הגדרות"
+
+#: build/admin.js:25
+msgid "Open Support Ticket"
+msgstr "פתח כרטיס תמיכה"
+
+#: build/admin.js:25
+msgid "Help Center"
+msgstr "מרכז עזרה"
+
+#: build/admin.js:25
+msgid "Join our Community"
+msgstr "הצטרף לקהילה שלנו"
+
+#: build/admin.js:25
+msgid "Leave Us a Review"
+msgstr "השאר לנו ביקורת"
+
+#: build/admin.js:25
+msgid "Quick Access"
+msgstr "גישה מהירה"
+
+#: build/admin.js:25
+msgid "Recent Consent Logs"
+msgstr "יומני הסכמה אחרונים"
+
+#: build/admin.js:25
+msgid "Toggle Preview"
+msgstr "החלף תצוגה מקדימה"
+
+#: build/admin.js:25
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "לחץ על כפתור זה כדי להציג או להסתיר את תצוגת הבאנר להסכמת עוגיות."
+
+#: build/admin.js:25
+msgid "Click here to start"
+msgstr "לחץ כאן כדי להתחיל"
+
+#: build/admin.js:25
+msgid "design your banner"
+msgstr "עצב את הבאנר שלך"
+
+#: build/admin.js:25
+msgid "Here's a preview of the cookie consent banner."
+msgstr "הנה תצוגה מקדימה של באנר הסכמת העוגיות."
+
+#: build/admin.js:25
+msgid "You can adjust the content and design settings."
+msgstr "אתה יכול להתאים את התוכן והגדרות העיצוב."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:28
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d מתוך %2$d שלבים הושלמו"
+
+#: build/admin.js:28
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "הכל מוכן! SureCookie מוכן להגן על האתר שלך."
+
+#: build/admin.js:28
+#: build/onboarding.js:9
+msgid "Go to Dashboard"
+msgstr "עבור ללוח הבקרה"
+
+#: build/admin.js:28
+msgid "Scan Your Site for Cookies"
+msgstr "סרוק את האתר שלך עבור עוגיות"
+
+#: build/admin.js:28
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "הפעל את סורק העוגיות כדי לגלות ולסווג את העוגיות שהאתר שלך משתמש בהן."
+
+#: build/admin.js:28
+msgid "Scan Now"
+msgstr "סרוק עכשיו"
+
+#: build/admin.js:28
+msgid "Set up the Consent Banner"
+msgstr "הגדר את באנר ההסכמה"
+
+#: build/admin.js:28
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "התאם אישית את באנר הסכמת העוגיות שלך - תוכן, פריסה ונראות."
+
+#: build/admin.js:28
+msgid "Review Consent Logs"
+msgstr "סקור יומני הסכמה"
+
+#: build/admin.js:28
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "ראה מי הסכים ומתי - שימושי לבדיקות תאימות."
+
+#: build/admin.js:28
+msgid "View Logs"
+msgstr "הצג יומנים"
+
+#: build/admin.js:28
+msgid "Publish Your Cookie Policy"
+msgstr "פרסם את מדיניות העוגיות שלך"
+
+#: build/admin.js:28
+msgid "Review and publish the cookie policy page on your site."
+msgstr "סקור ופרסם את דף מדיניות העוגיות באתר שלך."
+
+#: build/admin.js:28
+msgid "Review Page"
+msgstr "סקור דף"
+
+#: build/admin.js:28
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "צור דף מדיניות עוגיות כדי שהמבקרים ידעו כיצד אתה מטפל בנתונים שלהם."
+
+#: build/admin.js:28
+msgid "Create Page"
+msgstr "צור דף"
+
+#: build/admin.js:28
+msgid "Get Started with SureCookie"
+msgstr "התחל עם SureCookie"
+
+#: build/admin.js:28
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "עקוב אחר השלבים האלה כדי להגדיר הסכמת עוגיות באתר שלך תוך דקות."
+
+#: build/admin.js:28
+msgid "See full documentation →"
+msgstr "ראה תיעוד מלא →"
+
+#: build/admin.js:28
+msgid "Continue Learning"
+msgstr "המשך ללמוד"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:31
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d מתוך %2$d שלבי ההגדרה הושלמו."
+
+#: build/admin.js:31
+msgid "Open Learn"
+msgstr "פתח למידה"
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "כל העוגיות התקבלו."
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "עוגיות לא חיוניות נדחו."
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "העדפות נשמרו בהצלחה."
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "סגור את חלון העדפות הפרטיות"
+
+#: build/admin.js:32
+#: build/public.js:2
+msgid "Always Active"
+msgstr "תמיד פעיל"
+
+#. translators: %s: cookie category name
+#: build/admin.js:33
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: תמיד פעיל, לא ניתן להשבית"
+
+#: build/admin.js:33
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "הצג עוגיות"
+
+#. translators: %s: cookie category name
+#: build/admin.js:34
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s פרטי עוגיות"
+
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Expiry"
+msgstr "תוקף"
+
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Reject All"
+msgstr "דחה הכל"
+
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "אשר את הבחירות שלי"
+
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "מופעל על ידי SureCookie (נפתח בכרטיסייה חדשה)"
+
+#: inc/utils/localize-data.php:219
+#: build/admin.js:34
+#: build/public.js:4
+msgid "Powered by"
+msgstr "מופעל על ידי"
+
+#: build/admin.js:34
+msgid "Buttons are for reference only in preview."
+msgstr "כפתורים הם רק להמחשה בתצוגה מקדימה."
+
+#: build/admin.js:34
+msgid "This is a preview"
+msgstr "זו תצוגה מקדימה"
+
+#: build/admin.js:34
+msgid "Close preview"
+msgstr "סגור תצוגה מקדימה"
+
+#: build/admin.js:34
+#: build/admin.js:35
+msgid "Complete"
+msgstr "הושלם"
+
+#: build/admin.js:34
+#: build/admin.js:35
+msgid "Queued…"
+msgstr "בתור…"
+
+#: build/admin.js:34
+#: build/admin.js:35
+msgid "Starting scan…"
+msgstr "מתחיל סריקה…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:35
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "מסרק דף %1$d מתוך %2$d…"
+
+#: build/admin.js:35
+msgid "Scanning pages…"
+msgstr "מסרק דפים…"
+
+#: build/admin.js:35
+msgid "Analyzing cookies…"
+msgstr "מנתח עוגיות…"
+
+#: build/admin.js:35
+msgid "Finalizing…"
+msgstr "מסיים…"
+
+#: build/admin.js:35
+msgid "Scan failed"
+msgstr "הסריקה נכשלה"
+
+#: build/admin.js:35
+msgid "In progress…"
+msgstr "בתהליך…"
+
+#: build/admin.js:35
+msgid "Scan progress"
+msgstr "התקדמות הסריקה"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:36
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d מתוך %2$d דפים נסרקו"
+
+#: build/admin.js:36
+msgid "Preparing scan…"
+msgstr "מכין סריקה…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:37
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s נשאר"
+
+#: build/admin.js:37
+msgid "Scan Completed with Errors"
+msgstr "הסריקה הושלמה עם שגיאות"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:38
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d דף(ים) לא ניתן היה לסרוק. בדוק את היומנים לפרטים."
+
+#: build/admin.js:38
+msgid "Scan Completed!"
+msgstr "הסריקה הושלמה!"
+
+#: build/admin.js:38
+msgid "Cookie scan has been completed successfully."
+msgstr "סריקת העוגיות הושלמה בהצלחה."
+
+#: build/admin.js:38
+msgid "Could not copy logs automatically."
+msgstr "לא ניתן להעתיק את היומנים אוטומטית."
+
+#: build/admin.js:38
+msgid "Logs copied to clipboard!"
+msgstr "היומנים הועתקו ללוח!"
+
+#: build/admin.js:38
+msgid "Latest Scanning Logs"
+msgstr "יומני הסריקה האחרונים"
+
+#: build/admin.js:38
+msgid "View logs from the most recent cookie scanning process."
+msgstr "הצג יומנים מתהליך סריקת העוגיות האחרון."
+
+#: build/admin.js:38
+msgid "Copied"
+msgstr "הועתק"
+
+#: build/admin.js:38
+msgid "Copy"
+msgstr "העתק"
+
+#: build/admin.js:38
+msgid "This field contains the scanning status results only."
+msgstr "שדה זה מכיל רק את תוצאות מצב הסריקה."
+
+#: build/admin.js:38
+msgid "Scan appears stuck"
+msgstr "נראה שהסריקה תקועה"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:39
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d מתוך %2$d דפים נסרקו לאחר %3$s ללא התקדמות אחרונה."
+
+#. translators: %s: elapsed time
+#: build/admin.js:40
+#, js-format
+msgid "No progress detected after %s."
+msgstr "לא זוהתה התקדמות לאחר %s."
+
+#: build/admin.js:40
+msgid "Possible causes: scan server under heavy load, your site is unreachable from our scanner, or a page caused a browser timeout."
+msgstr "סיבות אפשריות: שרת הסריקה תחת עומס כבד, האתר שלך אינו נגיש מהסורק שלנו, או דף גרם לזמן המתנה בדפדפן."
+
+#: build/admin.js:40
+#: build/admin.js:52
+msgid "Cancelling…"
+msgstr "מבוטל…"
+
+#: build/admin.js:40
+msgid "Cancel Scan"
+msgstr "בטל סריקה"
+
+#: build/admin.js:40
+msgid "Copy Logs for Support"
+msgstr "העתק יומנים לתמיכה"
+
+#: build/admin.js:40
+msgid "Once the scan is complete, your cookies will appear under <a>All Cookies</a>."
+msgstr "לאחר שהסריקה תסתיים, העוגיות שלך יופיעו תחת <a>כל העוגיות</a>."
+
+#: build/admin.js:40
+msgid "Your scan limit will reset tomorrow."
+msgstr "מגבלת הסריקה שלך תתאפס מחר."
+
+#: build/admin.js:40
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "הסריקה מתבצעת ברקע - אתה יכול לנווט בבטחה למקום אחר."
+
+#: build/admin.js:40
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "ודא שהאתר שלך נגיש לציבור (לא מאחורי אימות בסיסי או במצב תחזוקה)."
+
+#: build/admin.js:40
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "בדוק אם חומת אש או תוסף אבטחה חוסמים בקשות חיצוניות לאתר שלך."
+
+#: build/admin.js:40
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "דפים עם JavaScript כבד עשויים לקחת זמן רב יותר לסריקה. אם הסריקה נכשלת שוב ושוב, נסה פחות דפים."
+
+#: build/admin.js:40
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "אם הבעיות נמשכות, העתק את היומנים ו<a>צור קשר עם צוות התמיכה שלנו.</a>"
+
+#: build/admin.js:40
+msgid "contact our support team"
+msgstr "צור קשר עם צוות התמיכה שלנו"
+
+#: build/admin.js:40
+#: build/admin.js:53
+#: build/onboarding.js:2
+msgid "(no title)"
+msgstr "(ללא כותרת)"
+
+#: build/admin.js:40
+#: build/onboarding.js:2
+msgid "Failed to initiate scan"
+msgstr "נכשל בהפעלת הסריקה"
+
+#: build/admin.js:44
+#: build/admin.js:52
+msgid "Scan your website to detect all cookies being used."
+msgstr "סרוק את האתר שלך כדי לזהות את כל העוגיות שבהן משתמשים."
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:45
+#: build/onboarding.js:7
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "נותרו לך %1$d מתוך %2$d סריקות יומיות"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:46
+#: build/admin.js:48
+#, js-format
+msgid "Resets in %s"
+msgstr "מתאפס בעוד %s"
+
+#: build/admin.js:48
+#: build/onboarding.js:7
+msgid "Limits refreshed."
+msgstr "המגבלות התעדכנו."
+
+#: build/admin.js:48
+#: build/onboarding.js:7
+msgid "Failed to refresh limits."
+msgstr "נכשל בעדכון המגבלות."
+
+#: build/admin.js:48
+msgid "Your session expired. Please reload to reconnect."
+msgstr "הסשן שלך פג תוקף. נא לטעון מחדש כדי להתחבר שוב."
+
+#: build/admin.js:48
+#: build/onboarding.js:7
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "לא הצלחנו לקבל את המגבלות שלך כרגע. נסה שוב בעוד רגע."
+
+#: build/admin.js:48
+#: build/onboarding.js:7
+msgid "Refreshing…"
+msgstr "מתעדכן…"
+
+#: build/admin.js:48
+#: build/onboarding.js:7
+msgid "Refresh limits"
+msgstr "עדכן מגבלות"
+
+#. translators: %d: maximum pages
+#: build/admin.js:50
+#: build/onboarding.js:9
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "בחרת יותר מ-%d דפים"
+
+#. translators: %d: maximum pages
+#: build/admin.js:42
+#: build/onboarding.js:4
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "התוכנית שלך תומכת בסריקה של עד %d דפים. נא הסר דפים נוספים כדי להמשיך."
+
+#: build/admin.js:50
+msgid "Daily Limit Reached"
+msgstr "הגעת למגבלת היומית"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:51
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "השתמשת ב-%1$d מתוך %2$d סריקות יומיות. הזיכויים שלך יתעדכנו אוטומטית מחר."
+
+#: build/admin.js:51
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "השתמשת בכל זיכויי הסריקה שלך להיום. הזיכויים שלך יתעדכנו אוטומטית מחר."
+
+#: build/admin.js:51
+#: build/onboarding.js:9
+msgid "Scan Started!"
+msgstr "הסריקה התחילה!"
+
+#: build/admin.js:52
+msgid "Network error occurred"
+msgstr "אירעה שגיאת רשת"
+
+#: build/admin.js:52
+#: build/onboarding.js:9
+msgid "Scanning…"
+msgstr "מסרק…"
+
+#: build/admin.js:52
+#: build/onboarding.js:9
+msgid "Start Scan"
+msgstr "התחל סריקה"
+
+#: build/admin.js:52
+msgid "View Scanning Logs"
+msgstr "הצג יומני סריקה"
+
+#: build/admin.js:52
+msgid "Cancel Stuck Scan"
+msgstr "בטל סריקה תקועה"
+
+#: build/admin.js:52
+#: build/onboarding.js:1
+msgid "WordPress Cron is Disabled"
+msgstr "Cron של WordPress מושבת"
+
+#: build/admin.js:52
+#: build/onboarding.js:1
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "מערכת ה-Cron של WordPress אינה פועלת באתר שלך. סריקת העוגיות עשויה לא לפעול כמצופה. נא להפעיל את WP-Cron או להגדיר משימת cron בשרת כדי להבטיח פעולה תקינה."
+
+#: build/admin.js:52
+msgid "Select"
+msgstr "בחר"
+
+#: build/admin.js:52
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "הגדר כיצד כפתור \"העדפות עוגיות\" מופיע באתר שלך, ומאפשר למשתמשים לעדכן את הסכמתם בכל עת."
+
+#: build/admin.js:52
+msgid "No re-consent method active"
+msgstr "אין שיטת הסכמה מחדש פעילה"
+
+#: build/admin.js:52
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "מבקרים לא יוכלו לעדכן את העדפות העוגיות שלהם אלא אם תוסיף פריט תפריט או תמקם את הקוד הקצר בעמוד. ניתן להתעלם מזה בבטחה אם הקוד הקצר כבר נוסף."
+
+#: build/admin.js:52
+msgid "Button Label"
+msgstr "תווית כפתור"
+
+#: build/admin.js:52
+msgid "The label shown on the Cookie Preferences link."
+msgstr "התווית המוצגת בקישור להעדפות עוגיות."
+
+#: build/admin.js:52
+msgid "Menu Level"
+msgstr "רמת תפריט"
+
+#: build/admin.js:52
+#: build/admin.js:53
+msgid "Shortcode"
+msgstr "קוד קצר"
+
+#: build/admin.js:52
+msgid "Floating Widget"
+msgstr "וידג'ט צף"
+
+#: build/admin.js:52
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "בחר תפריט וורדפרס כדי להוסיף אוטומטית את קישור העדפות העוגיות אליו. בלחיצה עליו, נפתח חלון העדפות ההסכמה ישירות."
+
+#: build/admin.js:52
+msgid "No WordPress menus found."
+msgstr "לא נמצאו תפריטי וורדפרס."
+
+#: build/admin.js:52
+msgid "Create a menu in Appearance > Menus."
+msgstr "צור תפריט ב'מראה > תפריטים'."
+
+#: build/admin.js:52
+msgid "Select Menu"
+msgstr "בחר תפריט"
+
+#: build/admin.js:52
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "השתמש בקוד הקצר הזה כדי להציג את קישור העדפות העוגיות בכל מקום באתר שלך. בלחיצה עליו, נפתח חלון העדפות ההסכמה ישירות."
+
+#: build/admin.js:52
+#: build/admin.js:53
+msgid "Shortcode Copied!"
+msgstr "הקוד הקצר הועתק!"
+
+#: build/admin.js:52
+#: build/admin.js:53
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "לא ניתן להעתיק ללוח. נא להעתיק את הקוד הקצר ידנית."
+
+#: build/admin.js:52
+#: build/admin.js:53
+msgid "Copied!"
+msgstr "הועתק!"
+
+#: build/admin.js:52
+#: build/admin.js:53
+msgid "Copy shortcode"
+msgstr "העתק קוד קצר"
+
+#: build/admin.js:52
+msgid "Enable Floating Widget"
+msgstr "הפעל וידג'ט צף"
+
+#: build/admin.js:52
+msgid "to show a floating cookie preferences button on every page."
+msgstr "כדי להציג כפתור העדפות עוגיות צף בכל עמוד."
+
+#: build/admin.js:52
+msgid "Failed to deactivate plugin."
+msgstr "נכשל בנטרול התוסף."
+
+#: build/admin.js:52
+msgid "Conflicting Plugins Detected."
+msgstr "זוהו תוספים מתנגשים."
+
+#: build/admin.js:52
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "מומלץ לנטרל אותם כדי למנוע בעיות."
+
+#: build/admin.js:52
+msgid "Deactivate Plugin"
+msgstr "נטרל תוסף"
+
+#: build/admin.js:52
+msgid "Conflicting Plugins Detected"
+msgstr "זוהו תוספים מתנגשים"
+
+#: build/admin.js:52
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "התוספים הבאים עלולים להתנגש עם SureCookie. מומלץ לנטרל אותם כדי למנוע בעיות."
+
+#: build/admin.js:52
+msgid "Version:"
+msgstr "גרסה:"
+
+#: build/admin.js:52
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "הניטרול הצליח. טוען מחדש את הדף בעוד 3 שניות."
+
+#: build/admin.js:52
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "לא ניתן לנטרל את התוסף. נא לנסות שוב."
+
+#: build/admin.js:52
+msgid "Deactivating…"
+msgstr "מנטרל…"
+
+#: build/admin.js:52
+msgid "Deactivate"
+msgstr "נטרל"
+
+#: build/admin.js:52
+msgid "Close"
+msgstr "סגור"
+
+#: build/admin.js:52
+msgid "Preview:"
+msgstr "תצוגה מקדימה:"
+
+#: build/admin.js:52
+msgid "ON"
+msgstr "פועל"
+
+#: build/admin.js:52
+msgid "OFF"
+msgstr "כבוי"
+
+#: build/admin.js:52
+msgid "What's New?"
+msgstr "מה חדש?"
+
+#: build/admin.js:52
+msgid "Free version"
+msgstr "גרסה חינמית"
+
+#: build/admin.js:53
+msgid "Knowledge Base"
+msgstr "בסיס ידע"
+
+#: build/admin.js:53
+#: build/admin.js:58
+msgid "Analytics"
+msgstr "אנליטיקה"
+
+#: build/admin.js:53
+#: build/admin.js:58
+msgid "Marketing"
+msgstr "שיווק"
+
+#: build/admin.js:53
+#: build/admin.js:58
+msgid "Functional"
+msgstr "פונקציונלי"
+
+#: build/admin.js:53
+msgid "Essential"
+msgstr "חיוני"
+
+#: build/admin.js:53
+msgid "Detected Resources"
+msgstr "משאבים שזוהו"
+
+#: build/admin.js:53
+msgid "No scan data available. Run a scan to detect third-party resources."
+msgstr "אין נתוני סריקה זמינים. הרץ סריקה כדי לזהות משאבים של צד שלישי."
+
+#: build/admin.js:53
+msgid "detected by scanner"
+msgstr "זוהה על ידי הסורק"
+
+#: build/admin.js:53
+msgid "Replace data on next scan"
+msgstr "החלף נתונים בסריקה הבאה"
+
+#: build/admin.js:53
+msgid "Resource"
+msgstr "משאב"
+
+#: build/admin.js:53
+msgid "Block"
+msgstr "חסום"
+
+#: build/admin.js:53
+msgid "Script"
+msgstr "סקריפט"
+
+#: build/admin.js:53
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:53
+msgid "Block non-essential resources until user consent is given"
+msgstr "חסום משאבים לא חיוניים עד לקבלת הסכמת המשתמש"
+
+#: build/admin.js:53
+msgid "Enable Script and Content Blocking Switch"
+msgstr "הפעל מתג חסימת סקריפטים ותוכן"
+
+#: build/admin.js:53
+msgid "Enable Script and Content Blocking"
+msgstr "הפעל חסימת סקריפטים ותוכן"
+
+#: build/admin.js:53
+msgid "Prevent non-essential scripts and embedded content from loading until user consent is given. Supported services are listed <a>here</a>."
+msgstr "מנע טעינת סקריפטים ותוכן מוטמעים לא חיוניים עד לקבלת הסכמת המשתמש. השירותים הנתמכים מפורטים <a>כאן</a>."
+
+#: build/admin.js:53
+msgid "here"
+msgstr "כאן"
+
+#: build/admin.js:53
+msgid "Control where your cookie banner appears on your site."
+msgstr "שלוט במיקום שבו מופיע באנר העוגיות באתר שלך."
+
+#: build/admin.js:53
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "רוצה שליטה רבה יותר על באנר העוגיות שלך?"
+
+#: build/admin.js:53
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "שדרג כדי להסתיר אותו בעמודים, פוסטים, ארכיונים נבחרים או עבור תפקידי משתמש ספציפיים."
+
+#: build/admin.js:53
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "הדף שנבחר קודם לכן כבר לא קיים או שלא ניתן לטעון אותו."
+
+#: build/admin.js:53
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "הדף שנבחר אינו מפורסם ולא יופיע למבקרים."
+
+#: build/admin.js:53
+msgid "Generate a cookie policy page or use a shortcode to display your cookie policy anywhere on your site."
+msgstr "צור דף מדיניות עוגיות או השתמש בקוד קצר כדי להציג את מדיניות העוגיות שלך בכל מקום באתר שלך."
+
+#: build/admin.js:53
+msgid "Cookie Policy Page"
+msgstr "דף מדיניות עוגיות"
+
+#: build/admin.js:53
+msgid "Clear selected page"
+msgstr "נקה דף שנבחר"
+
+#: build/admin.js:53
+msgid "Select a Page"
+msgstr "בחר דף"
+
+#: build/admin.js:53
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "קישור לדף זה יופיע בכותרת התחתונה של חלון העדפות ההסכמה."
+
+#: build/admin.js:53
+msgid "Auto Generate"
+msgstr "יצירה אוטומטית"
+
+#: build/admin.js:53
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "צור אוטומטית דף מדיניות עוגיות מפורסם המכיל טבלת עוגיות שנוצרת דינמית ותמיד מעודכנת."
+
+#: build/admin.js:53
+msgid "Cookie Policy page created successfully!"
+msgstr "דף מדיניות העוגיות נוצר בהצלחה!"
+
+#: build/admin.js:53
+msgid "Failed to generate page. Please try again."
+msgstr "הכנת הדף נכשלה. אנא נסה שוב."
+
+#: build/admin.js:53
+msgid "An error occurred while generating the page. Please try again."
+msgstr "אירעה שגיאה בעת יצירת הדף. אנא נסה שוב."
+
+#: build/admin.js:53
+msgid "Page Already Linked"
+msgstr "הדף כבר מקושר"
+
+#: build/admin.js:53
+msgid "Generate Cookie Policy Page"
+msgstr "צור דף מדיניות עוגיות"
+
+#: build/admin.js:53
+msgid "Edit Page"
+msgstr "ערוך דף"
+
+#: build/admin.js:53
+msgid "View Page"
+msgstr "הצג דף"
+
+#: build/admin.js:53
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "השתמש בקוד הקצר הזה כדי להציג את מדיניות העוגיות עם טבלת עוגיות שנוצרת דינמית בכל דף או פוסט. הטבלה תמיד משקפת את העוגיות הסרוקות והמותאמות האחרונות."
+
+#: build/admin.js:58
+msgid "Please enter at least one region code"
+msgstr "אנא הזן לפחות קוד אזור אחד"
+
+#: build/admin.js:58
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "פורמט קוד אזור לא חוקי. השתמש בקודי ISO 3166 כמו EU, US, US-CA, או GB."
+
+#: build/admin.js:58
+msgid "EU/EEA (GDPR)"
+msgstr "האיחוד האירופי/האזור הכלכלי האירופי (GDPR)"
+
+#: build/admin.js:58
+msgid "California (CCPA)"
+msgstr "קליפורניה (CCPA)"
+
+#: build/admin.js:58
+msgid "United Kingdom"
+msgstr "הממלכה המאוחדת"
+
+#: build/admin.js:58
+msgid "Brazil (LGPD)"
+msgstr "ברזיל (LGPD)"
+
+#: build/admin.js:58
+msgid "Edit Regional Rule"
+msgstr "ערוך כלל אזורי"
+
+#: build/admin.js:58
+msgid "Add Regional Rule"
+msgstr "הוסף כלל אזורי"
+
+#: build/admin.js:58
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "הגדר מצב הסכמה ברירת מחדל למבקרים מאזור זה. גוגל משתמשת בהתאמה המדויקת ביותר."
+
+#: build/admin.js:58
+msgid "Add Rule"
+msgstr "הוסף כלל"
+
+#: build/admin.js:58
+msgid "Quick Presets"
+msgstr "הגדרות מהירות"
+
+#: build/admin.js:58
+msgid "Apply preset:"
+msgstr "החל הגדרה מראש:"
+
+#: build/admin.js:58
+msgid "Region Codes"
+msgstr "קודי אזורים"
+
+#: build/admin.js:58
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "קודי ISO 3166 מופרדים בפסיקים: EU, US, US-CA, GB, BR, וכו'."
+
+#: build/admin.js:58
+msgid "Default Consent State"
+msgstr "מצב הסכמה ברירת מחדל"
+
+#: build/admin.js:58
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "בחר אילו קטגוריות מאושרות כברירת מחדל למבקרים מאזור זה לפני שהם מתקשרים עם הבאנר."
+
+#: build/admin.js:58
+msgid "Functional Storage"
+msgstr "אחסון פונקציונלי"
+
+#: build/admin.js:58
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "מאפשר אחסון לפונקציונליות האתר כמו העדפות ושפה."
+
+#: build/admin.js:58
+msgid "Functional storage default"
+msgstr "ברירת מחדל לאחסון פונקציונלי"
+
+#: build/admin.js:58
+msgid "Analytics Storage"
+msgstr "אחסון אנליטיקה"
+
+#: build/admin.js:58
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "מאפשר אחסון למטרות אנליטיות כמו משך ביקור וצפיות בדף."
+
+#: build/admin.js:58
+msgid "Analytics storage default"
+msgstr "ברירת מחדל לאחסון אנליטיקה"
+
+#: build/admin.js:58
+msgid "Marketing / Ads Storage"
+msgstr "אחסון שיווק / פרסומות"
+
+#: build/admin.js:58
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "מאפשר אחסון למטרות פרסום כולל התאמת פרסומות ונתוני משתמש."
+
+#: build/admin.js:58
+msgid "Marketing storage default"
+msgstr "ברירת מחדל לאחסון שיווק"
+
+#: build/admin.js:58
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "עוגיות חיוניות (security_storage) תמיד מאושרות. ברירות מחדל אלו חלות לפני שהמבקר מתקשר עם באנר ההסכמה."
+
+#: build/admin.js:58
+msgid "Granted"
+msgstr "מאושר"
+
+#: build/admin.js:58
+msgid "Denied"
+msgstr "נדחה"
+
+#: build/admin.js:58
+msgid "Active Regional Rules"
+msgstr "כללים אזוריים פעילים"
+
+#: build/admin.js:58
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "הגדר מצבי הסכמה ברירת מחדל שונים לפי אזור. גוגל משתמשת בהתאמה המדויקת ביותר (למשל, US-CA גובר על US)."
+
+#: build/admin.js:58
+msgid "Edit rule for"
+msgstr "ערוך כלל עבור"
+
+#: build/admin.js:58
+msgid "Delete rule for"
+msgstr "מחק כלל עבור"
+
+#: build/admin.js:58
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "אין כללים אזוריים מוגדרים. ברירת המחדל הגלובלית (לדחות הכל למעט חיוני) חלה על כל המבקרים."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:59
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "קודי האזור האלה כבר קיימים בכלל אחר: %s"
+
+#: build/admin.js:59
+msgid "Delete Regional Rule"
+msgstr "מחק כלל אזורי"
+
+#: build/admin.js:59
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "האם אתה בטוח שברצונך למחוק כלל הסכמה אזורי זה? מבקרים מאזור זה ישתמשו בברירת המחדל הגלובלית."
+
+#: build/admin.js:59
+msgid "Google Consent Mode v2"
+msgstr "מצב הסכמה של גוגל v2"
+
+#: build/admin.js:59
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "תקשר אוטומטית העדפות הסכמה של המשתמש לשירותי גוגל."
+
+#: build/admin.js:59
+msgid "Enable Google Consent Mode Switch"
+msgstr "הפעל מתג מצב הסכמה של גוגל"
+
+#: build/admin.js:59
+msgid "Enable Google Consent Mode"
+msgstr "הפעל מצב הסכמה של גוגל"
+
+#: build/admin.js:59
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "שירותים נתמכים: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, ו-DV360"
+
+#: build/admin.js:59
+msgid "Wait Time (milliseconds)"
+msgstr "זמן המתנה (מילישניות)"
+
+#: build/admin.js:59
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "כמה זמן שירותי גוגל ממתינים להסכמה לפני ביצוע בקשות. ברירת מחדל: 500ms. טווח: 0–2000ms."
+
+#: build/admin.js:59
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "חובה לאיחוד האירופי/האזור הכלכלי האירופי החל ממרץ 2024"
+
+#: build/admin.js:59
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "גוגל דורשת כעת מצב הסכמה v2 לכל האתרים המשתמשים בשירותי גוגל באזור הכלכלי האירופי."
+
+#: build/admin.js:59
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "למידע נוסף על מצב הסכמה של גוגל v2 →"
+
+#: build/admin.js:59
+msgid "Show the cookie banner only where you want, based on visitor location."
+msgstr "הצג את באנר העוגיות רק במקום הרצוי, בהתבסס על מיקום המבקר."
+
+#: build/admin.js:59
+msgid "Where should the banner appear?"
+msgstr "איפה הבאנר צריך להופיע?"
+
+#: build/admin.js:59
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "בחר היכן יוצג הבאנר. מבקרים מחוץ לאזורים שנבחרו לא יראו אותו."
+
+#: build/admin.js:59
+msgid "Show to all visitors worldwide"
+msgstr "הצג לכל המבקרים ברחבי העולם"
+
+#: build/admin.js:59
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "השתמש באותה חוויה לכולם, ללא קשר למיקום."
+
+#: build/admin.js:53
+#: build/admin.js:59
+msgid "Pro"
+msgstr "פרו"
+
+#: build/admin.js:59
+msgid "Show only where required by law"
+msgstr "הצג רק במקום שנדרש על פי חוק"
+
+#: build/admin.js:59
+msgid "Target specific regions with tailored consent experiences."
+msgstr "כוון אזורים ספציפיים עם חוויות הסכמה מותאמות."
+
+#: build/admin.js:59
+msgid "Mode: Show to all visitors worldwide"
+msgstr "מצב: הצג לכל המבקרים ברחבי העולם"
+
+#: build/admin.js:59
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "הגדרות הבאנר הקיימות שלך חלות על כל המבקרים. אין מיקוד גיאוגרפי פעיל."
+
+#: build/admin.js:59
+msgid "Unlock Regional Targeting"
+msgstr "שחרר מיקוד אזורי"
+
+#: build/admin.js:59
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "הצג באנר רק באזורים שנבחרו, צור כללים אזוריים מותאמים, ושלוט בהתנהגות ברירת המחדל."
+
+#: build/admin.js:59
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "זיהוי מיקום משתמש בנתוני GeoLite2 של MaxMind, זמין ב-<link>https://www.maxmind.com</link>."
+
+#: build/admin.js:62
+msgid "IAB Transparency & Consent Framework"
+msgstr "מסגרת שקיפות והסכמה של IAB"
+
+#: build/admin.js:62
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "הפוך את באנר ההסכמה שלך לתואם ל-IAB TCF 2.3 ושילב עם רשימת הספקים הגלובלית."
+
+#: build/admin.js:62
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "שחרר תאימות ל-IAB TCF 2.3 - בקרוב"
+
+#: build/admin.js:62
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "הפעל מצב TCF מלא, צור מחרוזות TC, והצג את רשימת הספקים של IAB למבקרים שלך."
+
+#: build/admin.js:62
+msgid "Google Additional Consent (AC)"
+msgstr "הסכמה נוספת של גוגל (AC)"
+
+#: build/admin.js:62
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "הוסף הסכמה נוספת של גוגל לצד IAB TCF לטיפול בספקי טכנולוגיית פרסום שאינם ברשימת הספקים הגלובלית של IAB."
+
+#: build/admin.js:62
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "שחרר את הסכמת Google נוספת - בקרוב"
+
+#: build/admin.js:62
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "צור את מחרוזת ה-AC, השתק את העוגייה addtl_consent, והצג את רשימת ספקי ההסכמה הנוספת של Google למבקרים שלך - נדרש למונטיזציה מלאה של Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "נכשל בקבלת מטען האימות"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "אירעה שגיאה בעת החיבור"
+
+#: build/onboarding.js:1
+msgid "First name is required"
+msgstr "שם פרטי נדרש"
+
+#: build/onboarding.js:1
+msgid "Email address is required"
+msgstr "כתובת דוא\"ל נדרשת"
+
+#: build/onboarding.js:1
+msgid "Please enter a valid email address"
+msgstr "אנא הזן כתובת דוא\"ל תקינה"
+
+#: build/onboarding.js:1
+msgid "Classify cookies automatically"
+msgstr "סווג עוגיות אוטומטית"
+
+#: build/onboarding.js:1
+msgid "Get smart compliance recommendations"
+msgstr "קבל המלצות ציות חכמות"
+
+#: build/onboarding.js:1
+msgid "Generate privacy-compliant descriptions"
+msgstr "צור תיאורים התואמים לפרטיות"
+
+#: build/onboarding.js:1
+msgid "Welcome to SureCookie"
+msgstr "ברוכים הבאים ל-SureCookie"
+
+#: build/onboarding.js:1
+msgid "Privacy compliance made effortless 🍪"
+msgstr "ציות לפרטיות בקלות 🍪"
+
+#: build/onboarding.js:1
+msgid "Connect Your Account"
+msgstr "התחבר לחשבונך"
+
+#: build/onboarding.js:1
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "התחבר לחשבון SureCookie שלך כדי לסווג עוגיות אוטומטית, ליצור תיאורים תואמים ולקבל המלצות חכמות לצרכי הפרטיות שלך."
+
+#: build/onboarding.js:1
+msgid "Here's what you can do:"
+msgstr "הנה מה שאתה יכול לעשות:"
+
+#: build/onboarding.js:1
+msgid "List of capabilities"
+msgstr "רשימת יכולות"
+
+#: build/onboarding.js:1
+msgid "Connected to SureCookie"
+msgstr "מחובר ל-SureCookie"
+
+#: build/onboarding.js:2
+#: build/onboarding.js:9
+msgid "Back"
+msgstr "חזור"
+
+#: build/onboarding.js:1
+msgid "Next"
+msgstr "הבא"
+
+#: build/onboarding.js:1
+#: build/onboarding.js:9
+msgid "Skip"
+msgstr "דלג"
+
+#: build/onboarding.js:1
+msgid "Connecting…"
+msgstr "מתחבר…"
+
+#: build/onboarding.js:1
+msgid "Connect"
+msgstr "התחבר"
+
+#: build/onboarding.js:6
+msgid "Run a Quick Privacy Scan"
+msgstr "הרץ סריקת פרטיות מהירה"
+
+#: build/onboarding.js:6
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie יסרוק את האתר שלך, יזהה את כל העוגיות ויסווג אותן אוטומטית.<br/> זה עוזר לך להישאר תואם מבלי לבזבז שעות בזיהוי סקריפטים ידנית."
+
+#: build/onboarding.js:6
+msgid "Account not connected"
+msgstr "החשבון לא מחובר"
+
+#: build/onboarding.js:6
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "אנא <a>חזור</a> והתחבר לחשבון SureCookie שלך כדי לאפשר סריקת עוגיות."
+
+#: build/onboarding.js:7
+msgid "Your session expired. Please reconnect to continue."
+msgstr "הסשן שלך פג תוקף. אנא התחבר מחדש כדי להמשיך."
+
+#: build/onboarding.js:9
+msgid "Connect Required"
+msgstr "התחברות נדרשת"
+
+#: build/onboarding.js:9
+msgid "Please connect your account to get free scanning credits."
+msgstr "אנא התחבר לחשבונך כדי לקבל קרדיטים לסריקה חינמית."
+
+#: build/onboarding.js:9
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie סורק את העמודים שלך עבור עוגיות. זה עשוי לקחת כמה דקות."
+
+#: build/onboarding.js:9
+msgid "Okay, just one last step…"
+msgstr "אוקיי, רק עוד שלב אחד…"
+
+#: build/onboarding.js:9
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "עזור לנו להתאים את חוויית SureCookie שלך על ידי שיתוף קצת על עצמך:"
+
+#: build/onboarding.js:9
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: build/onboarding.js:9
+msgid "Enter your first name"
+msgstr "הזן את שמך הפרטי"
+
+#: build/onboarding.js:9
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: build/onboarding.js:9
+msgid "Enter your last name"
+msgstr "הזן את שם המשפחה שלך"
+
+#: build/onboarding.js:9
+msgid "Email Address"
+msgstr "כתובת דוא\"ל"
+
+#: build/onboarding.js:9
+msgid "Enter your email address"
+msgstr "הזן את כתובת הדוא\"ל שלך"
+
+#: build/onboarding.js:9
+msgid "Finish"
+msgstr "סיום"
+
+#: build/onboarding.js:9
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "חסום עוגיות ומעקבים לא חיוניים עד לקבלת הסכמה מפורשת"
+
+#: build/onboarding.js:9
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "גלה אוטומטית שירותים נפוצים, סווג אותם, וקבע מראש כללים בטוחים"
+
+#: build/onboarding.js:9
+msgid "You're all set. Let's go live 🚀"
+msgstr "הכל מוכן. בוא נעלה לאוויר 🚀"
+
+#: build/onboarding.js:9
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "מרשומות הסכמה ועד העדפות מבוססות אזור, SureCookie עוזר לך להישאר תואם תוך כדי בניית אמון המבקרים."
+
+#: build/onboarding.js:9
+msgid "Here's what SureCookie will do for you now:"
+msgstr "הנה מה ש-SureCookie יעשה עבורך עכשיו:"
+
+#: build/onboarding.js:9
+msgid "SureCookie Features"
+msgstr "תכונות SureCookie"
+
+#: build/onboarding.js:1
+msgid "Exit Setup"
+msgstr "צא מההגדרות"
+
+#: build/admin.js:34
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "אתר זה משתמש בעוגיות כדי לשפר את חוויית הגלישה שלך, להתאים תוכן אישית, לספק תכונות מדיה חברתית ולנתח את התנועה שלנו. באפשרותך לסקור ולנהל את הגדרות העוגיות שלך בכל עת, או לקבל את כל העוגיות כדי להמשיך."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "הסכמת עוגיות"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "לוגו באנר"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "דחה את כל העוגיות הלא חיוניות"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "נהל העדפות עוגיות"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "קבל רק עוגיות חיוניות"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "קבל את כל העוגיות"
+
+#: build/admin.js:2
+#: build/admin.js:31
+#: build/admin.js:59
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "העברת הסכמה"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "רוצה צבעי מותג מותאמים אישית?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "התקבל מ"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "התקבל"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "שיתוף ל-%d אתר(ים)"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "הסכמה לא התקבלה עבור"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "קטגוריות אלו קיימות רק באתר זה ולא היו חלק מהסכמת ההעברה. המבקר יתבקש להגדיר את ההעדפות עבורן כאשר יבקר באתר זה ישירות."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "מידע נוסף על קטגוריות אלו"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "שיתוף"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "שיתוף ל"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "מזהה מושב הסכמה"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "שדרוג ייצוא יומן הסכמה"
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "קטעי העדפות"
+
+#: build/admin.js:31
+#: build/public.js:1
+msgid "Cookies"
+msgstr "קוקיות"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:32
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d אתר(ים) מחוברים"
+
+#: build/admin.js:32
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "אתרים שיקבלו את ההסכמה שלך"
+
+#: build/admin.js:32
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "לא הוגדרו אתרי שותפים."
+
+#: build/admin.js:34
+msgid "Cookie Notice"
+msgstr "הודעת קוקיות"
+
+#: build/admin.js:59
+msgid "Share visitor consent across multiple sites so users do not have to consent again."
+msgstr "שתף את הסכמת המבקר בין אתרים מרובים כדי שמשתמשים לא יצטרכו להסכים שוב."
+
+#: build/admin.js:59
+msgid "Unlock Consent Forwarding"
+msgstr "פתח העברת הסכמה"
+
+#: build/admin.js:59
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "סנכרן אוטומטית את הסכמת הקוקיות בין דומיינים מרובים והעבר את בחירות ההסכמה לשירותים מחוברים, מבלי לבקש מהמבקרים להסכים שוב."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "שרת SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "שרת SureCookie MCP להגדרות הסכמת עוגיות, יומני הסכמה, ניהול עוגיות וזרימות עבודה לסריקת אתרים."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s תפריט משנה"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "כללי"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "הסכמה ונתונים"
+
+#: build/admin.js:2
+msgid "Compliance"
+msgstr "ציות"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "מסגרות הסכמה"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "הזן טקסט"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "הזן הודעת באנר"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "שלוט במשך הזמן שההסכמה נשארת בתוקף וכיצד נשמרים רשומות ההסכמה."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "לא זמין"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "הסכמה זו שותפה עם %d אתר מחובר. מחיקתה כאן תמחק גם את העותק מאותו אתר (GDPR סעיף 17)."
+msgstr[1] "הסכמה זו שותפה עם %d אתרים מחוברים. מחיקתה כאן תמחק גם את העותקים מאותם אתרים (GDPR סעיף 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d מהיומנים הללו שותף עם אתרי שותפים מחוברים. מחיקה תמחק גם את העותקים שהועברו (GDPR סעיף 17)."
+msgstr[1] "%d מהיומנים הללו שותפו עם אתרי שותפים מחוברים. מחיקה תמחק גם את העותקים שהועברו (GDPR סעיף 17)."
+
+#: build/admin.js:34
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "העדפות מנהל ותוספים עבור SureCookie."
+
+#: build/admin.js:34
+msgid "SureCookie Admin Menu"
+msgstr "תפריט מנהל SureCookie"
+
+#: build/admin.js:34
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "החלף להצגת SureCookie בתפריט הראשי או תחת הגדרות → SureCookie."
+
+#: build/admin.js:59
+msgid "Connect Your AI Client"
+msgstr "חבר את לקוח הבינה המלאכותית שלך"
+
+#: build/admin.js:59
+msgid "Create an Application Password"
+msgstr "צור סיסמת אפליקציה"
+
+#: build/admin.js:59
+msgid "Open Application Passwords"
+msgstr "פתח סיסמאות אפליקציה"
+
+#: build/admin.js:59
+msgid "Add to your AI client:"
+msgstr "הוסף ללקוח הבינה המלאכותית שלך:"
+
+#: build/admin.js:59
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "למידע נוסף על מתאם MCP של וורדפרס"
+
+#: build/admin.js:59
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:59
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:59
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:59
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:59
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:59
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "גש להגדרות → מחברים → הוסף מחבר, הדבק את כתובת ה-URL של נקודת הקצה, והשתמש בשם המשתמש שלך בוורדפרס + סיסמת האפליקציה."
+
+#: build/admin.js:59
+msgid "Learn more about ChatGPT connectors"
+msgstr "למידע נוסף על מחברי ChatGPT"
+
+#: build/admin.js:59
+msgid "SureCookie Only"
+msgstr "רק SureCookie"
+
+#: build/admin.js:59
+msgid "Global"
+msgstr "גלובלי"
+
+#: build/admin.js:59
+msgid "Copy setup prompt for AI client"
+msgstr "העתק פקודת הפעלה ללקוח הבינה המלאכותית"
+
+#: build/admin.js:59
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "הפקודה הועתקה! הדבק אותה בלקוח הבינה המלאכותית שלך."
+
+#: build/admin.js:59
+msgid "Failed to copy prompt to clipboard"
+msgstr "העתקת הפקודה ללוח נכשלה"
+
+#: build/admin.js:59
+msgid "Copy JSON config"
+msgstr "העתק קונפיגורציית JSON"
+
+#: build/admin.js:59
+msgid "Copied to clipboard"
+msgstr "הועתק ללוח"
+
+#: build/admin.js:59
+msgid "Failed to copy to clipboard"
+msgstr "העתקה ללוח נכשלה"
+
+#: build/admin.js:59
+msgid "MCP Adapter plugin not detected"
+msgstr "תוסף MCP לא זוהה"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:62
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "כדי לחבר לקוחות בינה מלאכותית לאתר שלך, נדרש התוסף %s. הורד את הגרסה העדכנית מ-GitHub, העלה דרך תוספים > הוסף חדש > העלאת תוסף, והפעל."
+
+#: build/admin.js:62
+msgid "Download from GitHub"
+msgstr "הורד מ-GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:62
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:62
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "הגדר גישה של לקוח הבינה המלאכותית ל-SureCookie דרך פרוטוקול הקשר לדגם."
+
+#: build/admin.js:62
+msgid "Enable MCP"
+msgstr "אפשר MCP"
+
+#: build/admin.js:62
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "אפשר ללקוחות בינה מלאכותית כמו Claude, ChatGPT ו-Cursor לנהל את באנר העוגיות, הסורק והגדרות ההסכמה דרך SureCookie. כאשר מנוטרל, לא נרשמות יכולות והלקוחות לא יכולים להתחבר."
+
+#: build/admin.js:62
+msgid "WordPress Abilities API not available"
+msgstr "API היכולות של וורדפרס אינו זמין"
+
+#: build/admin.js:62
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP דורש את ממשק היכולות של וורדפרס (וורדפרס 6.9 או מאוחר יותר). עדכן את וורדפרס כדי להשתמש בתכונה זו."
+
+#: build/admin.js:62
+msgid "Unsaved changes"
+msgstr "שינויים שלא נשמרו"
+
+#: build/admin.js:62
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "נקודת הקצה של MCP הופכת לפעילה רק לאחר ששמרת את ההגדרות שלך."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "לא ניתן לקבוע את המשתמש הנוכחי."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "יומני ההסכמה סומנו כנצפים."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "התוסף מופעל ברשת ויש להשביתו על ידי מנהל הרשת מ- Network Admin > Plugins."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "לא ניתן להשבית את התוסף."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "הפעל סריקה אוטומטית לפני הפעלת סריקה."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "סריקה כבר מתבצעת."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "לא ניתן להתחיל את הסריקה. אנא נסה שוב."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "הסריקה הופעלה."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "סריקה אוטומטית נדחתה: התקציב היומי של הדפים הושג. ניסיון חוזר בעוד כ-24 שעות."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "סריקה אוטומטית דילגה: סריקה כבר מתבצעת."
+
+#: inc/modules/automatic-scanning/runner.php:137
+msgid "Starting automatic (scheduled) scan."
+msgstr "מתחיל סריקה אוטומטית (מתוזמנת)."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "פעם בחודש (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "פעם בשבוע (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1037
+msgid "This content is currently blocked."
+msgstr "תוכן זה חסום כרגע."
+
+#: inc/modules/site-scanner/saas-client.php:370
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "הסריקה נדחתה על ידי השרת: התקציב היומי של הדפים הושג. היא תנסה שוב אוטומטית."
+
+#: inc/modules/site-scanner/saas-client.php:375
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "התקציב היומי של הדפים הושג. הסריקה המתוזמנת תנסה שוב אוטומטית."
+
+#: build/admin.js:2
+msgid "Cookie Scanning"
+msgstr "סריקת עוגיות"
+
+#: build/admin.js:2
+#: build/admin.js:54
+msgid "Manual"
+msgstr "ידני"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "אוטומטי"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "אפס לברירת המחדל"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "הפעל שכבת רקע"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "שכבת רקע"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "הכהה את הדף מאחורי הבאנר והגבל אינטראקציה עד שהמבקר יקבל או יסרב. השכבה מוסרת לאחר קבלת החלטה."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "פריסת עיצוב זו מדגישה את באנר ההסכמה ועלולה להשפיע על חוויית המשתמש. ודא שהיא תואמת את דרישות ההסכמה האזוריות שלך."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "בקש הסכמה מחדש"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "התבקש לאחרונה: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "בקש מכל המבקרים לספק הסכמה שוב. השתמש בזה לאחר עדכון מדיניות העוגיות או הוספת מעקבים חדשים. ההסכמה הקיימת תסומן כמיושנת, והבאנר יופיע שוב בביקור הבא."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "ההסכמה התבקשה. המבקרים יתבקשו להסכים שוב."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "לא ניתן לבקש הסכמה מחדש. אנא נסה שוב."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "מתחדש…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "אשר בקשה מחדש"
+
+#: build/admin.js:21
+msgid "New"
+msgstr "חדש"
+
+#: build/admin.js:24
+#: build/admin.js:53
+msgid "Automatic Scanning"
+msgstr "סריקה אוטומטית"
+
+#: build/admin.js:24
+msgid "Manage"
+msgstr "נהל"
+
+#: build/admin.js:24
+msgid "Since the last scan:"
+msgstr "מאז הסריקה האחרונה:"
+
+#: build/admin.js:24
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "עוגיה חדשה"
+msgstr[1] "עוגיות חדשות"
+
+#: build/admin.js:24
+msgid "removed"
+msgstr "הוסר"
+
+#: build/admin.js:24
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "דומיין מעקב חדש"
+msgstr[1] "דומייני מעקב חדשים"
+
+#: build/admin.js:24
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "עדיין לא בוצעו סריקות. תזמן סריקות אוטומטיות למעקב אחר שינויים לאורך זמן."
+
+#. translators: %s: next scan date
+#: build/admin.js:25
+#, js-format
+msgid "Next scan: %s"
+msgstr "סריקה הבאה: %s"
+
+#: build/admin.js:25
+msgid "Scheduling is off"
+msgstr "התזמון כבוי"
+
+#: build/admin.js:52
+msgid "Network-activated"
+msgstr "מופעל ברשת"
+
+#: build/admin.js:52
+msgid "Manage in Network Admin"
+msgstr "נהל במנהל הרשת"
+
+#: build/admin.js:53
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "מצב ההסכמה של גוגל מופעל, ולכן SureCookie מאפשרת לסקריפטים של מצב ההסכמה של גוגל לפעול כראוי. כתוצאה מכך, סקריפט זה לא יכול להיות חסום."
+
+#: build/admin.js:53
+msgid "Necessary"
+msgstr "הכרחי"
+
+#: build/admin.js:53
+msgid "What Changed in the Last Scan"
+msgstr "מה השתנה בסריקה האחרונה"
+
+#: build/admin.js:53
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "עוגיות ודומיינים של מעקב שהשתנו בהשוואה לסריקה הקודמת."
+
+#: build/admin.js:53
+msgid "No differences were detected compared to the previous scan."
+msgstr "לא זוהו הבדלים בהשוואה לסריקה הקודמת."
+
+#: build/admin.js:53
+msgid "New Cookies"
+msgstr "עוגיות חדשות"
+
+#: build/admin.js:53
+msgid "No Longer Detected"
+msgstr "לא זוהו יותר"
+
+#: build/admin.js:53
+msgid "Recategorized"
+msgstr "סווג מחדש"
+
+#: build/admin.js:53
+msgid "New Tracker Domains"
+msgstr "דומיינים חדשים של מעקב"
+
+#: build/admin.js:53
+msgid "Third-party"
+msgstr "צד שלישי"
+
+#: build/admin.js:53
+msgid "Monthly"
+msgstr "חודשי"
+
+#: build/admin.js:53
+msgid "Re-scan your site once a month."
+msgstr "סרוק את האתר שלך מחדש פעם בחודש."
+
+#: build/admin.js:53
+msgid "Weekly"
+msgstr "שבועי"
+
+#: build/admin.js:53
+msgid "Re-scan every week for faster drift detection."
+msgstr "סרוק מחדש כל שבוע לזיהוי מהיר יותר של שינויים."
+
+#: build/admin.js:53
+msgid "All Published Content"
+msgstr "כל התוכן שפורסם"
+
+#: build/admin.js:53
+msgid "Re-scan your site on a schedule and get notified when cookies or trackers change."
+msgstr "סרוק את האתר שלך על פי לוח זמנים וקבל התראות כאשר עוגיות או מעקבים משתנים."
+
+#: build/admin.js:53
+msgid "Enable Automatic Scanning"
+msgstr "הפעל סריקה אוטומטית"
+
+#: build/admin.js:53
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "הרץ סריקות מתוזמנות ברקע וזיהוי שינויים אוטומטי."
+
+#: build/admin.js:53
+msgid "Scan Frequency"
+msgstr "תדירות סריקה"
+
+#: build/admin.js:53
+msgid "WordPress cron is disabled"
+msgstr "ה-cron של וורדפרס מושבת"
+
+#: build/admin.js:53
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "סריקות מתוזמנות תלויות ב-cron. בקש מהמארח שלך להגדיר משימת cron אמיתית בשרת כדי שהסריקות האוטומטיות ירוצו בזמן."
+
+#: build/admin.js:53
+msgid "Last Scan"
+msgstr "סריקה אחרונה"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:54
+#, js-format
+msgid "Scanned on %s"
+msgstr "נסרק ב-%s"
+
+#: build/admin.js:54
+msgid "Scheduled"
+msgstr "מתוזמן"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:55
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d עוגיות חדשות"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:56
+#, js-format
+msgid "%d Removed"
+msgstr "%d הוסר"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:57
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d סווג מחדש"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:58
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d דומיינים חדשים של מעקב"
+
+#: build/admin.js:58
+msgid "View Changes"
+msgstr "הצג שינויים"
+
+#: build/admin.js:58
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "עדיין לא בוצעו סריקות - הרץ את הסריקה הראשונה שלך כדי להתחיל במעקב אחר שינויים."
+
+#: build/admin.js:58
+msgid "Stay Compliant Automatically"
+msgstr "הישאר תואם באופן אוטומטי"
+
+#: build/admin.js:58
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "קבל סריקות שבועיות, התראות מיידיות, סיווג חכם והגנה אוטומטית מפני מעקבים חדשים."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:6
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "סוכן SureCookie יבקר בהם כמו משתמשים אמיתיים כדי לזהות את כל העוגיות בשימוש. מותר %d דפים לסריקה עקב מגבלות משאבים."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d מתוך %2$d דפי יומיים נותרו באתר זה"
+
+#: build/admin.js:52
+#: build/onboarding.js:9
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>על ידי סריקה אתה מקבל את <a>התנאים וההגבלות</a> שלנו.</p>"
+
+#: build/admin.js:52
+#: build/onboarding.js:9
+msgid "Terms and Conditions"
+msgstr "תנאים והגבלות"
+
+#: build/admin.js:52
+#: build/onboarding.js:1
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "סריקת עוגיות אינה זמינה באתרים מקומיים"
+
+#: build/admin.js:52
+#: build/onboarding.js:1
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "אתר זה פועל בסביבה מקומית או סביבת פיתוח שהסורק בענן שלנו אינו יכול להגיע אליה. סריקת עוגיות תהיה זמינה ברגע שהאתר שלך יהיה חי בדומיין נגיש לציבור."
+
+#: build/onboarding.js:9
+msgid "Skip for Now"
+msgstr "דלג לעכשיו"
+
+#: build/onboarding.js:9
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "הישאר מעודכן ועזור לעצב את SureCookie! קבל עדכוני תכונות, ועזור לנו לבנות SureCookie טוב יותר על ידי שיתוף כיצד אתה משתמש בתוסף. <a>תנאים והגבלות</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "הגדל את התנועה לאתר שלך עם SureRank - תוסף SEO קל משקל למשתמשי וורדפרס שרוצים דירוגים טובים יותר ללא מורכבות."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "מדהים! SureCookie גילה עוגיות באתר שלך - בואו נמשיך לצמוח יחד!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:801
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "הדף נכשל: %1$s - %2$s"
+
+#: inc/modules/site-scanner/saas-client.php:1376
+msgid "Domain verification failed - please retry the scan."
+msgstr "אימות הדומיין נכשל - אנא נסה שוב את הסריקה."
+
+#: build/admin.js:24
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron מושבת - סריקות לא יפעלו באופן אוטומטי"
+
+#: build/admin.js:40
+#: build/onboarding.js:2
+msgid "Consider Plan Upgrade"
+msgstr "שקול שדרוג תוכנית"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:52
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "נסרקו %1$d מתוך %2$d דפים - תקציב הדפים היומי שלך נוצל במלואו. הדפים הנותרים ייסרקו לאחר האיפוס."
+
+#: build/admin.js:59
+msgid "Update the environment variables"
+msgstr "עדכן את משתני הסביבה"
+
+#: build/admin.js:59
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:59
+msgid "Your WordPress username (prefilled)."
+msgstr "שם המשתמש שלך בוורדפרס (מולא מראש)."
+
+#: build/admin.js:59
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:59
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "החלף את \"your-application-password\" בסיסמה משלב 1."
+
+#: build/admin.js:59
+msgid "Verify Node.js version"
+msgstr "ודא את גרסת Node.js"
+
+#: build/admin.js:59
+msgid "In your terminal, run:"
+msgstr "בטרמינל שלך, הרץ:"
+
+#: build/admin.js:59
+msgid "The version must be 20.1 or higher."
+msgstr "הגרסה חייבת להיות 20.1 ומעלה."
+
+#: build/admin.js:59
+msgid "If it is lower, run:"
+msgstr "אם היא נמוכה יותר, הרץ:"
+
+#: build/admin.js:59
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "הפעל מחדש את לקוח ה-AI שלך והדבק שוב את ההנחיה שהועתקה בלקוח ה-AI שלך."
+
+#: build/admin.js:59
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "תיהנה מלקוח ה-AI שלך המחובר לאתר הוורדפרס שלך!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "נונס לא חוקי."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "משתמש לא מורשה."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "פרמטרים לא חוקיים."
+
+#: build/admin.js:28
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "יותר מגבלות סריקה, מיקוד גיאוגרפי, ווידג'ט לאישור מחדש, ועוד."
+
+#: inc/integrations/presto-player/block-handler.php:276
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "הקול הזה חסום עד שתקבל עוגיות כדי לטעון אותו."
+
+#: inc/integrations/presto-player/block-handler.php:280
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "הווידאו הזה חסום עד שתקבל עוגיות כדי לטעון אותו."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "כלים"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "ניצלת את כל הבקשות הזמינות ל-AI בתוכנית החינמית שלך. שדרג ל-SureCookie פרימיום כדי להמשיך להשתמש בתכונות AI."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "שדרג ל-SureCookie פרימיום כדי לגשת לתכונה זו."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "האם סדר הכפתורים הזה לא מופיע בחזית?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "מבקרים התואמים לכלל אזורי ספציפי יראו את סדר הכפתורים שהוגדר לאזור זה. סדר גלובלי זה מוצג רק למבקרים שאינם תואמים לכללים אזוריים."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "נהל כללי גיאוגרפיה"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "אתה יכול להוסיף קישורים ועיצוב בסיסי כמו מודגש/נטוי/קישור להודעת הבאנר."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "שדרג ל-SureCookie פרימיום כדי לבחור צבעים מותאמים ראשיים, משניים, קדמיים ורקע לבאנר שלך."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "ייצא יומני הסכמה"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "שדרג לפרימיום כדי להוריד דוח CSV לביקורות משפטיות ותיעוד סעיף 7 של GDPR."
+
+#: build/admin.js:25
+msgid "Grab the Launch Offer"
+msgstr "תפוס את הצעת ההשקה"
+
+#: build/admin.js:28
+msgid "Do More with SureCookie Premium"
+msgstr "עשה יותר עם SureCookie פרימיום"
+
+#: build/admin.js:43
+#: build/onboarding.js:5
+msgid "Checking your scan limits…"
+msgstr "בודק את מגבלות הסריקה שלך…"
+
+#: build/admin.js:43
+#: build/onboarding.js:5
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "הרץ את הסריקה הראשונה שלך כדי לחבר אתר זה עם SureCookie. המגבלות המלאות של הסריקה בתוכנית שלך יפתחו אוטומטית לאחר שהחיבור יוקם."
+
+#. translators: %d: maximum pages
+#: build/admin.js:44
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "נבקר בתוכן הנבחר כדי לזהות את כל העוגיות בשימוש. מותר %d עמודים לסריקה עקב מגבלות משאבים."
+
+#. translators: %d: maximum items
+#: build/admin.js:49
+#: build/onboarding.js:8
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "בחר עד %d פריטים לסריקה…"
+
+#: build/admin.js:49
+#: build/onboarding.js:8
+msgid "Select Content"
+msgstr "בחר תוכן"
+
+#: build/admin.js:50
+#: build/onboarding.js:9
+msgid "Select the content you want to scan."
+msgstr "בחר את התוכן שברצונך לסרוק."
+
+#: build/admin.js:51
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "סורק את התוכן שלך עבור עוגיות. זה עשוי לקחת כמה דקות."
+
+#: build/admin.js:52
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "פתח כללי גיאוגרפיה, סריקה מתקדמת ועוד עם Pro - תפוס את הצעת ההשקה!"
+
+#: build/admin.js:52
+#: build/onboarding.js:1
+msgid "Claim the Deal"
+msgstr "תבע את העסקה"
+
+#: build/admin.js:53
+msgid "Content from Manual Scan"
+msgstr "תוכן מסריקה ידנית"
+
+#: build/admin.js:53
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "השתמש מחדש בתוכן שנבחר בסורק העוגיות."
+
+#: build/admin.js:53
+msgid "Scan all published content, as per plan limit."
+msgstr "סרוק את כל התוכן שפורסם, בהתאם למגבלת התוכנית."
+
+#: build/admin.js:53
+msgid "Selected Content"
+msgstr "תוכן שנבחר"
+
+#: build/admin.js:53
+msgid "Choose specific content to scan below."
+msgstr "בחר תוכן ספציפי לסריקה למטה."
+
+#: build/admin.js:53
+msgid "Content to Scan"
+msgstr "תוכן לסריקה"
+
+#: build/admin.js:53
+msgid "Select content to scan…"
+msgstr "בחר תוכן לסריקה…"
+
+#: build/onboarding.js:1
+msgid "Launch Offer - Save Big"
+msgstr "הצעת השקה - חסוך בגדול"
+
+#: build/onboarding.js:1
+msgid "Limited Time"
+msgstr "לזמן מוגבל"
+
+#: build/onboarding.js:1
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "שדרג לפרימיום ופתח סריקה מתקדמת, כללי גיאוגרפיה, מיתוג מותאם ותמיכה בעדיפות."
+
+#: build/onboarding.js:1
+msgid "Failed to activate license. Please try again."
+msgstr "הפעלת הרישיון נכשלה. אנא נסה שוב."
+
+#: build/onboarding.js:1
+msgid "License Activated!"
+msgstr "הרישיון הופעל!"
+
+#: build/onboarding.js:1
+msgid "Your license has been successfully activated."
+msgstr "הרישיון שלך הופעל בהצלחה."
+
+#: build/onboarding.js:1
+msgid "Activation Failed"
+msgstr "הפעלה נכשלה"
+
+#: build/onboarding.js:1
+msgid "An error occurred during activation. Please try again."
+msgstr "אירעה שגיאה במהלך ההפעלה. אנא נסה שוב."
+
+#: build/onboarding.js:1
+msgid "Invalid License Key"
+msgstr "מפתח רישיון לא חוקי"
+
+#: build/onboarding.js:1
+msgid "Please enter a valid license key."
+msgstr "אנא הזן מפתח רישיון חוקי."
+
+#: build/onboarding.js:1
+msgid "Activate Your License"
+msgstr "הפעל את הרישיון שלך"
+
+#: build/onboarding.js:1
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "הפעל את רישיון SureCookie שלך כדי לפתוח מגבלות סריקה גבוהות יותר, לסווג עוגיות אוטומטית ולקבל המלצות חכמות לציות."
+
+#: build/onboarding.js:1
+msgid "License activated"
+msgstr "הרישיון הופעל"
+
+#: build/onboarding.js:1
+msgid "Activating…"
+msgstr "מופעל…"
+
+#: build/admin.js:40
+#: build/onboarding.js:1
+#: build/onboarding.js:2
+msgid "Activate License"
+msgstr "הפעל רישיון"
+
+#: build/onboarding.js:1
+msgid "License Key"
+msgstr "מפתח רישיון"
+
+#: build/onboarding.js:1
+msgid "Paste your license key here"
+msgstr "הדבק כאן את מפתח הרישיון שלך"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:2
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "הפעל את רישיון <strong>%s</strong> שלך כדי לקבל תמיכה מקצועית ועדכונים אוטומטיים ישירות מלוח הבקרה של וורדפרס שלך. אין לך רישיון? <a>קבל אותו כאן »</a>"
+
+#: build/onboarding.js:2
+msgid "Purchase a SureCookie license"
+msgstr "רכוש רישיון SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "הצג תוכניות"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "CONSENT RECORD"
+msgstr "רשומת הסכמה"
+
+#: build/admin.js:4
+#: build/admin.js:5
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "מסמך זה מכיל רשומה של בחירת ההסכמה שנשמרה על ידי SureCookie. ניתן להשתמש בו לתיעוד פנימי וביקורת. דרישות חוקיות עשויות להשתנות."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "מסמך זה נוצר אוטומטית על ידי תוסף SureCookie ומכיל רשומה של בחירת ההסכמה שנשמרה בזמן הייצוא. ניתן להשתמש בו לתיעוד פנימי וביקורת. דרישות חוקיות עשויות להשתנות."
+
+#: build/admin.js:24
+msgid "Enter your custom CSS here"
+msgstr "הזן כאן את ה-CSS המותאם אישית שלך"
+
+#: build/admin.js:24
+msgid "Use !important to override inline styles"
+msgstr "השתמש ב-!important כדי לעקוף סגנונות פנימיים"
+
+#: build/admin.js:24
+msgid "Your cookie banner is enabled."
+msgstr "הבאנר של העוגיות שלך מופעל."
+
+#: build/admin.js:24
+msgid "Your cookie banner is currently disabled."
+msgstr "הבאנר של העוגיות שלך כרגע מושבת."
+
+#: build/admin.js:40
+#: build/onboarding.js:2
+msgid "Activate SureCookie Pro"
+msgstr "הפעל את SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:41
+#: build/onboarding.js:3
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "הסר את הדפים הנוספים כדי להתחיל - הסריקה הראשונה שלך יכולה לכסות עד %d דפים בזמן שאנו מחברים את האתר שלך. מגבלות התוכנית המלאות שלך יפתחו אוטומטית לאחר מכן."
+
+#. translators: %d: maximum pages
+#: build/admin.js:43
+#: build/onboarding.js:5
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "התוכנית החינמית תומכת בסריקה של עד %d דפים. שדרג עכשיו כדי לסרוק יותר דפים ולשמור על רשימת העוגיות שלך מעודכנת אוטומטית."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:53
+#, js-format
+msgid "%s version"
+msgstr "%s גרסה"
+
+#: build/onboarding.js:1
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "בוא נעזור לך לגלות עוגיות, להגדיר בחירות הסכמה ולשפר את האופן שבו האתר שלך מטפל בפרטיות המבקרים. SureCookie מזהה ומסווג עוגיות אוטומטית כדי שתוכל להישאר ממוקד בצמיחת העסק שלך."
+
+#: build/onboarding.js:9
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "שמור רשומות הסכמה מקומית באתר וייצא רשומות בודדות בעת הצורך"
